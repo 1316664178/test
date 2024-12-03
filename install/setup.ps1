@@ -23,7 +23,10 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/melodic\local_setup.ps1"
+<<<<<<< HEAD
 _colcon_prefix_chain_powershell_source_script "/home/ykxn/autoware.ai/install\local_setup.ps1"
+=======
+>>>>>>> master
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

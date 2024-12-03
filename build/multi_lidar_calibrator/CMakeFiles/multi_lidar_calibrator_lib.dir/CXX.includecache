@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/ykxn/ws_calibrator/src/multi_lidar_calibator/include/multi_lidar_calibrator.h
+=======
+/home/ykxn/Desktop/test/multi_lidar_calibrator/include/multi_lidar_calibrator.h
+>>>>>>> master
 string
 -
 vector
@@ -46,9 +50,15 @@ message_filters/sync_policies/approximate_time.h
 tf/tf.h
 -
 
+<<<<<<< HEAD
 /home/ykxn/ws_calibrator/src/multi_lidar_calibator/src/multi_lidar_calibrator.cpp
 multi_lidar_calibrator.h
 /home/ykxn/ws_calibrator/src/multi_lidar_calibator/src/multi_lidar_calibrator.h
+=======
+/home/ykxn/Desktop/test/multi_lidar_calibrator/src/multi_lidar_calibrator.cpp
+multi_lidar_calibrator.h
+/home/ykxn/Desktop/test/multi_lidar_calibrator/src/multi_lidar_calibrator.h
+>>>>>>> master
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

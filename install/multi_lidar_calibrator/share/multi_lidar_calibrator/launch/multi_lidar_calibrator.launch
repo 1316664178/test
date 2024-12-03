@@ -8,11 +8,19 @@
     <arg name="points_child_src" default="/livox/lidar_192_168_1_206"/> -->
     <arg name="points_parent_src" default="/merged_points206" />
     <arg name="points_child_src" default="/merged_points207"/>
+<<<<<<< HEAD
     <arg name="voxel_size" default="0.2" />
     <arg name="ndt_epsilon" default="0.03" />
     <arg name="ndt_step_size" default="0.05" />
     <arg name="ndt_resolution" default="1.0" />
     <arg name="ndt_iterations" default="500" />
+=======
+    <arg name="voxel_size" default="0.1" />
+    <arg name="ndt_epsilon" default="0.05" />
+    <arg name="ndt_step_size" default="0.05" />
+    <arg name="ndt_resolution" default="1.0" />
+    <arg name="ndt_iterations" default="400" />
+>>>>>>> master
     <arg name="x" default="-2.2" />
     <arg name="y" default="-0.9" />
     <arg name="z" default="0" />

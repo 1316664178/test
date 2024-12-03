@@ -1,0 +1,132 @@
+[0.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.409s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9ab010fc18>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9ab010fc18>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9ab010ffd0>)
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ykxn/Desktop/test'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(multi_lidar_calibrator) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'multi_lidar_calibrator' with type 'ros.catkin' and name 'multi_lidar_calibrator'
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.526s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ykxn/Desktop/test/install
+[0.527s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /opt/ros/melodic
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'multi_lidar_calibrator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'multi_lidar_calibrator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ykxn/Desktop/test/install/multi_lidar_calibrator', 'merge_install': False, 'path': '/home/ykxn/Desktop/test/multi_lidar_calibrator', 'symlink_install': False, 'test_result_base': None}
+[0.532s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.536s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ykxn/Desktop/test/multi_lidar_calibrator' with build type 'catkin'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ykxn/Desktop/test/multi_lidar_calibrator'
+[0.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+[59.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+[60.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[60.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[60.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16
+[60.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16
+[60.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'ros_package_path')
+[60.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ros_package_path.ps1'
+[60.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ros_package_path.dsv'
+[60.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ros_package_path.sh'
+[60.999s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/python2.7/dist-packages'
+[60.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'pkg_config_path')
+[61.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path.ps1'
+[61.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path.dsv'
+[61.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path.sh'
+[61.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'pkg_config_path_multiarch')
+[61.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path_multiarch.ps1'
+[61.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path_multiarch.dsv'
+[61.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config_path_multiarch.sh'
+[61.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_lidar_calibrator)
+[61.021s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator' for CMake module files
+[61.022s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator' for CMake config files
+[61.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'cmake_prefix_path')
+[61.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/cmake_prefix_path.ps1'
+[61.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/cmake_prefix_path.dsv'
+[61.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/cmake_prefix_path.sh'
+[61.025s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib'
+[61.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'ld_library_path_lib')
+[61.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ld_library_path_lib.ps1'
+[61.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ld_library_path_lib.dsv'
+[61.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/ld_library_path_lib.sh'
+[61.028s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/bin'
+[61.028s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc'
+[61.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_lidar_calibrator', 'pkg_config')
+[61.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config.ps1'
+[61.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config.dsv'
+[61.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/hook/pkg_config.sh'
+[61.031s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/python3.6/site-packages'
+[61.032s] Level 1:colcon.colcon_core.environment:checking '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/bin'
+[61.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.ps1'
+[61.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.dsv'
+[61.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.sh'
+[61.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.bash'
+[61.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.zsh'
+[61.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/colcon-core/packages/multi_lidar_calibrator)
+[61.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.045s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[61.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[61.057s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[61.057s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[61.062s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[61.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ykxn/Desktop/test/install/local_setup.ps1'
+[61.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ykxn/Desktop/test/install/_local_setup_util_ps1.py'
+[61.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ykxn/Desktop/test/install/setup.ps1'
+[61.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ykxn/Desktop/test/install/local_setup.sh'
+[61.076s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ykxn/Desktop/test/install/_local_setup_util_sh.py'
+[61.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ykxn/Desktop/test/install/setup.sh'
+[61.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ykxn/Desktop/test/install/local_setup.bash'
+[61.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ykxn/Desktop/test/install/setup.bash'
+[61.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ykxn/Desktop/test/install/local_setup.zsh'
+[61.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ykxn/Desktop/test/install/setup.zsh'

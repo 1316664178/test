@@ -1,0 +1,41 @@
+[0.022s] Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+[0.165s] [35m[1mScanning dependencies of target multi_lidar_calibrator_lib[0m
+[0.186s] [ 16%] Built target xuanzhuan_y
+[0.190s] [ 33%] Built target calibrate
+[0.196s] [ 50%] Built target merge_all
+[0.200s] [ 66%] Built target calibrate2
+[0.231s] [ 75%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o[0m
+[52.325s] [ 83%] [32m[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so[0m
+[58.055s] [ 83%] Built target multi_lidar_calibrator_lib
+[58.127s] [ 91%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator[0m
+[59.424s] [100%] Built target multi_lidar_calibrator
+[59.441s] Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+[59.610s] Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[59.736s] Built target tests
+[59.753s] Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[59.955s] Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16
+[60.092s] [ 16%] Built target calibrate2
+[60.094s] [ 33%] Built target xuanzhuan_y
+[60.097s] [ 50%] Built target calibrate
+[60.100s] [ 66%] Built target merge_all
+[60.109s] [ 83%] Built target multi_lidar_calibrator_lib
+[60.175s] [100%] Built target multi_lidar_calibrator
+[60.226s] [36mInstall the project...[0m
+[60.243s] -- Install configuration: ""
+[60.244s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc
+[60.244s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake
+[60.244s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake
+[60.244s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml
+[60.245s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate
+[60.245s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2
+[60.245s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all
+[60.246s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y
+[60.246s] -- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator
+[60.260s] -- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""
+[60.261s] -- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so
+[60.298s] -- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""
+[60.298s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+[60.299s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/merge_points.launch
+[60.299s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch
+[60.299s] -- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/calibrate.launch
+[60.304s] Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16

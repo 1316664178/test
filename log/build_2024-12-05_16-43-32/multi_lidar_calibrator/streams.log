@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake /home/ykxn/Desktop/test/multi_lidar_calibrator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/Desktop/test/install/multi_lidar_calibrator
+[0.178s] -- The C compiler identification is GNU 7.5.0
+[0.269s] -- The CXX compiler identification is GNU 7.5.0
+[0.276s] -- Check for working C compiler: /usr/bin/cc
+[0.385s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.387s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.518s] -- Detecting C compile features
+[0.838s] -- Detecting C compile features - done
+[0.846s] -- Check for working CXX compiler: /usr/bin/c++
+[0.966s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.968s] -- Detecting CXX compiler ABI info
+[1.086s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Detecting CXX compile features
+[1.609s] -- Detecting CXX compile features - done
+[1.620s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.620s]   By not providing "Findautoware_build_flags.cmake" in CMAKE_MODULE_PATH this
+[1.620s]   project has asked CMake to find a package configuration file provided by
+[1.620s]   "autoware_build_flags", but CMake did not find one.
+[1.620s] 
+[1.620s]   Could not find a package configuration file provided by
+[1.621s]   "autoware_build_flags" with any of the following names:
+[1.621s] 
+[1.621s]     autoware_build_flagsConfig.cmake
+[1.621s]     autoware_build_flags-config.cmake
+[1.621s] 
+[1.621s]   Add the installation prefix of "autoware_build_flags" to CMAKE_PREFIX_PATH
+[1.621s]   or set "autoware_build_flags_DIR" to a directory containing one of the
+[1.621s]   above files.  If "autoware_build_flags" provides a separate development
+[1.622s]   package or SDK, be sure it has been installed.
+[1.622s] 
+[1.622s] 
+[1.622s] -- Configuring incomplete, errors occurred!
+[1.623s] See also "/home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles/CMakeOutput.log".
+[1.624s] Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '1': /usr/bin/cmake /home/ykxn/Desktop/test/multi_lidar_calibrator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/Desktop/test/install/multi_lidar_calibrator

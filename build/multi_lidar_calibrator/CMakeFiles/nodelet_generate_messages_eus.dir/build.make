@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/ykxn/ws_calibrator/src/multi_lidar_calibator
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ykxn/ws_calibrator/build/multi_lidar_calibrator
+=======
+CMAKE_SOURCE_DIR = /home/ykxn/Desktop/test/multi_lidar_calibrator
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/ykxn/Desktop/test/build/multi_lidar_calibrator
+>>>>>>> master
 
 # Utility rule file for nodelet_generate_messages_eus.
 
@@ -67,6 +74,10 @@ CMakeFiles/nodelet_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/nodelet_generate_messages_eus.dir/clean
 
 CMakeFiles/nodelet_generate_messages_eus.dir/depend:
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ykxn/ws_calibrator/src/multi_lidar_calibator /home/ykxn/ws_calibrator/src/multi_lidar_calibator /home/ykxn/ws_calibrator/build/multi_lidar_calibrator /home/ykxn/ws_calibrator/build/multi_lidar_calibrator /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ykxn/Desktop/test/multi_lidar_calibrator /home/ykxn/Desktop/test/multi_lidar_calibrator /home/ykxn/Desktop/test/build/multi_lidar_calibrator /home/ykxn/Desktop/test/build/multi_lidar_calibrator /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : CMakeFiles/nodelet_generate_messages_eus.dir/depend
 

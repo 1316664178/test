@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/ykxn/ws_calibrator/src/multi_lidar_calibator/src/calibrate2.cpp
+=======
+/home/ykxn/Desktop/test/multi_lidar_calibrator/src/calibrate2.cpp
+>>>>>>> master
 pcl/io/io.h
 -
 pcl/io/pcd_io.h

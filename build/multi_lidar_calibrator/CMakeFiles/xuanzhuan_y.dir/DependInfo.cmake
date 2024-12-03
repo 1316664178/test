@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/ykxn/ws_calibrator/src/multi_lidar_calibator/src/xuanzhuan_y.cpp" "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/xuanzhuan_y.dir/src/xuanzhuan_y.cpp.o"
+=======
+  "/home/ykxn/Desktop/test/multi_lidar_calibrator/src/xuanzhuan_y.cpp" "/home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles/xuanzhuan_y.dir/src/xuanzhuan_y.cpp.o"
+>>>>>>> master
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +21,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "/home/ykxn/ws_calibrator/src/multi_lidar_calibator/include"
+=======
+  "/home/ykxn/Desktop/test/multi_lidar_calibrator/include"
+>>>>>>> master
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

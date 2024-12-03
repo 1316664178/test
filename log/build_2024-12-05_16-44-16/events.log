@@ -1,0 +1,759 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (multi_lidar_calibrator) JobQueued: {'identifier': 'multi_lidar_calibrator', 'dependencies': OrderedDict()}
+[0.000454] (multi_lidar_calibrator) JobStarted: {'identifier': 'multi_lidar_calibrator'}
+[0.011130] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'cmake'}
+[0.012382] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '/home/ykxn/Desktop/test/multi_lidar_calibrator', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ykxn/Desktop/test/install/multi_lidar_calibrator'], 'cwd': '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/appcode.vmoptions'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/gateway.vmoptions'), ('USER', 'ykxn'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webstorm.vmoptions'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('WEBIDE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webide.vmoptions'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DATASPELL_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/dataspell.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('DATAGRIP_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/datagrip.vmoptions'), ('IDEA_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/idea.vmoptions'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2885'), ('CLION_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/clion.vmoptions'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('STUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/studio.vmoptions'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '3'), ('PHPSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/phpstorm.vmoptions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('RIDER_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rider.vmoptions'), ('PAPERSIZE', 'a4'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/devecostudio.vmoptions'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/1703,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GOLAND_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/goland.vmoptions'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dbabc1c805.sock'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/pycharm.vmoptions'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rubymine.vmoptions'), ('PWD', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrains_client.vmoptions'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.066162] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ykxn/Desktop/test/build/multi_lidar_calibrator/devel\n'}
+[0.066727] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[0.067107] (multi_lidar_calibrator) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[0.091120] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[0.091626] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.091787] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.092047] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.097587] (-) TimerEvent: {}
+[0.197992] (-) TimerEvent: {}
+[0.297222] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.297608] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.298093] (-) TimerEvent: {}
+[0.301785] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ykxn/Desktop/test/build/multi_lidar_calibrator/test_results\n'}
+[0.331374] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.332026] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.355964] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[0.358148] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.398178] (-) TimerEvent: {}
+[0.484752] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.485819] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[0.498308] (-) TimerEvent: {}
+[0.598685] (-) TimerEvent: {}
+[0.599024] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[0.601977] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.696950] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.697300] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.700141] (-) TimerEvent: {}
+[0.800674] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.800985] (-) TimerEvent: {}
+[0.804017] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.812590] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[0.866008] (multi_lidar_calibrator) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[0.866352] (multi_lidar_calibrator) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.901073] (-) TimerEvent: {}
+[1.001390] (-) TimerEvent: {}
+[1.101884] (-) TimerEvent: {}
+[1.203385] (-) TimerEvent: {}
+[1.304135] (-) TimerEvent: {}
+[1.404623] (-) TimerEvent: {}
+[1.504980] (-) TimerEvent: {}
+[1.559762] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[1.605130] (-) TimerEvent: {}
+[1.705545] (-) TimerEvent: {}
+[1.805935] (-) TimerEvent: {}
+[1.906347] (-) TimerEvent: {}
+[2.007831] (-) TimerEvent: {}
+[2.066091] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[2.072338] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.107785] (-) TimerEvent: {}
+[2.204968] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Generating done\n'}
+[2.207890] (-) TimerEvent: {}
+[2.215321] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Build files have been written to: /home/ykxn/Desktop/test/build/multi_lidar_calibrator\n'}
+[2.220707] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[2.222586] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'build'}
+[2.224623] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/appcode.vmoptions'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/gateway.vmoptions'), ('USER', 'ykxn'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webstorm.vmoptions'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('WEBIDE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webide.vmoptions'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DATASPELL_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/dataspell.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('DATAGRIP_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/datagrip.vmoptions'), ('IDEA_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/idea.vmoptions'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2885'), ('CLION_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/clion.vmoptions'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('STUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/studio.vmoptions'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '3'), ('PHPSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/phpstorm.vmoptions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('RIDER_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rider.vmoptions'), ('PAPERSIZE', 'a4'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/devecostudio.vmoptions'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/1703,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GOLAND_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/goland.vmoptions'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dbabc1c805.sock'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/pycharm.vmoptions'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rubymine.vmoptions'), ('PWD', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrains_client.vmoptions'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[2.291767] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibrate\x1b[0m\n'}
+[2.297970] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target merge_all\x1b[0m\n'}
+[2.299741] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target xuanzhuan_y\x1b[0m\n'}
+[2.300383] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibrate2\x1b[0m\n'}
+[2.300515] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multi_lidar_calibrator_lib\x1b[0m\n'}
+[2.307990] (-) TimerEvent: {}
+[2.367897] (multi_lidar_calibrator) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/xuanzhuan_y.dir/src/xuanzhuan_y.cpp.o\x1b[0m\n'}
+[2.383126] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o\x1b[0m\n'}
+[2.383419] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/merge_all.dir/src/merge_all.cpp.o\x1b[0m\n'}
+[2.384064] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/calibrate.dir/src/calibrate.cpp.o\x1b[0m\n'}
+[2.391319] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/calibrate2.dir/src/calibrate2.cpp.o\x1b[0m\n'}
+[2.408101] (-) TimerEvent: {}
+[2.508537] (-) TimerEvent: {}
+[2.609190] (-) TimerEvent: {}
+[2.709696] (-) TimerEvent: {}
+[2.813250] (-) TimerEvent: {}
+[2.913771] (-) TimerEvent: {}
+[3.014126] (-) TimerEvent: {}
+[3.114496] (-) TimerEvent: {}
+[3.215097] (-) TimerEvent: {}
+[3.315621] (-) TimerEvent: {}
+[3.416135] (-) TimerEvent: {}
+[3.516682] (-) TimerEvent: {}
+[3.617183] (-) TimerEvent: {}
+[3.717714] (-) TimerEvent: {}
+[3.818174] (-) TimerEvent: {}
+[3.918615] (-) TimerEvent: {}
+[4.019400] (-) TimerEvent: {}
+[4.119867] (-) TimerEvent: {}
+[4.220399] (-) TimerEvent: {}
+[4.320883] (-) TimerEvent: {}
+[4.421373] (-) TimerEvent: {}
+[4.521826] (-) TimerEvent: {}
+[4.622281] (-) TimerEvent: {}
+[4.722984] (-) TimerEvent: {}
+[4.823539] (-) TimerEvent: {}
+[4.924122] (-) TimerEvent: {}
+[5.024504] (-) TimerEvent: {}
+[5.124875] (-) TimerEvent: {}
+[5.225238] (-) TimerEvent: {}
+[5.325643] (-) TimerEvent: {}
+[5.426082] (-) TimerEvent: {}
+[5.527843] (-) TimerEvent: {}
+[5.628294] (-) TimerEvent: {}
+[5.728851] (-) TimerEvent: {}
+[5.829345] (-) TimerEvent: {}
+[5.929789] (-) TimerEvent: {}
+[6.030302] (-) TimerEvent: {}
+[6.130873] (-) TimerEvent: {}
+[6.231437] (-) TimerEvent: {}
+[6.331808] (-) TimerEvent: {}
+[6.432244] (-) TimerEvent: {}
+[6.532681] (-) TimerEvent: {}
+[6.633171] (-) TimerEvent: {}
+[6.733609] (-) TimerEvent: {}
+[6.834056] (-) TimerEvent: {}
+[6.935665] (-) TimerEvent: {}
+[7.036214] (-) TimerEvent: {}
+[7.136790] (-) TimerEvent: {}
+[7.237313] (-) TimerEvent: {}
+[7.337852] (-) TimerEvent: {}
+[7.438263] (-) TimerEvent: {}
+[7.538660] (-) TimerEvent: {}
+[7.639224] (-) TimerEvent: {}
+[7.740312] (-) TimerEvent: {}
+[7.840733] (-) TimerEvent: {}
+[7.941162] (-) TimerEvent: {}
+[8.041519] (-) TimerEvent: {}
+[8.141861] (-) TimerEvent: {}
+[8.242279] (-) TimerEvent: {}
+[8.343582] (-) TimerEvent: {}
+[8.444318] (-) TimerEvent: {}
+[8.544852] (-) TimerEvent: {}
+[8.645289] (-) TimerEvent: {}
+[8.745753] (-) TimerEvent: {}
+[8.846162] (-) TimerEvent: {}
+[8.946551] (-) TimerEvent: {}
+[9.047195] (-) TimerEvent: {}
+[9.147687] (-) TimerEvent: {}
+[9.248205] (-) TimerEvent: {}
+[9.348635] (-) TimerEvent: {}
+[9.449284] (-) TimerEvent: {}
+[9.549745] (-) TimerEvent: {}
+[9.650235] (-) TimerEvent: {}
+[9.750659] (-) TimerEvent: {}
+[9.851479] (-) TimerEvent: {}
+[9.951850] (-) TimerEvent: {}
+[10.052267] (-) TimerEvent: {}
+[10.152828] (-) TimerEvent: {}
+[10.253340] (-) TimerEvent: {}
+[10.353773] (-) TimerEvent: {}
+[10.454309] (-) TimerEvent: {}
+[10.554875] (-) TimerEvent: {}
+[10.655291] (-) TimerEvent: {}
+[10.755758] (-) TimerEvent: {}
+[10.856243] (-) TimerEvent: {}
+[10.956764] (-) TimerEvent: {}
+[11.057433] (-) TimerEvent: {}
+[11.157999] (-) TimerEvent: {}
+[11.258609] (-) TimerEvent: {}
+[11.359176] (-) TimerEvent: {}
+[11.459689] (-) TimerEvent: {}
+[11.560290] (-) TimerEvent: {}
+[11.660817] (-) TimerEvent: {}
+[11.761347] (-) TimerEvent: {}
+[11.861799] (-) TimerEvent: {}
+[11.962397] (-) TimerEvent: {}
+[12.062908] (-) TimerEvent: {}
+[12.163380] (-) TimerEvent: {}
+[12.263742] (-) TimerEvent: {}
+[12.364165] (-) TimerEvent: {}
+[12.464686] (-) TimerEvent: {}
+[12.565103] (-) TimerEvent: {}
+[12.665566] (-) TimerEvent: {}
+[12.765967] (-) TimerEvent: {}
+[12.866406] (-) TimerEvent: {}
+[12.966832] (-) TimerEvent: {}
+[13.067296] (-) TimerEvent: {}
+[13.167775] (-) TimerEvent: {}
+[13.268376] (-) TimerEvent: {}
+[13.368925] (-) TimerEvent: {}
+[13.469586] (-) TimerEvent: {}
+[13.570095] (-) TimerEvent: {}
+[13.670466] (-) TimerEvent: {}
+[13.770936] (-) TimerEvent: {}
+[13.871367] (-) TimerEvent: {}
+[13.971832] (-) TimerEvent: {}
+[14.072283] (-) TimerEvent: {}
+[14.172700] (-) TimerEvent: {}
+[14.273137] (-) TimerEvent: {}
+[14.373652] (-) TimerEvent: {}
+[14.474072] (-) TimerEvent: {}
+[14.574632] (-) TimerEvent: {}
+[14.675284] (-) TimerEvent: {}
+[14.775783] (-) TimerEvent: {}
+[14.876207] (-) TimerEvent: {}
+[14.944479] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/xuanzhuan_y\x1b[0m\n'}
+[14.976343] (-) TimerEvent: {}
+[15.076734] (-) TimerEvent: {}
+[15.177090] (-) TimerEvent: {}
+[15.277467] (-) TimerEvent: {}
+[15.377886] (-) TimerEvent: {}
+[15.478398] (-) TimerEvent: {}
+[15.579035] (-) TimerEvent: {}
+[15.607540] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] Built target xuanzhuan_y\n'}
+[15.679229] (-) TimerEvent: {}
+[15.779726] (-) TimerEvent: {}
+[15.880142] (-) TimerEvent: {}
+[15.980556] (-) TimerEvent: {}
+[16.081114] (-) TimerEvent: {}
+[16.181697] (-) TimerEvent: {}
+[16.282114] (-) TimerEvent: {}
+[16.382521] (-) TimerEvent: {}
+[16.482969] (-) TimerEvent: {}
+[16.583429] (-) TimerEvent: {}
+[16.683832] (-) TimerEvent: {}
+[16.784197] (-) TimerEvent: {}
+[16.884558] (-) TimerEvent: {}
+[16.985291] (-) TimerEvent: {}
+[17.085736] (-) TimerEvent: {}
+[17.186046] (-) TimerEvent: {}
+[17.286367] (-) TimerEvent: {}
+[17.386740] (-) TimerEvent: {}
+[17.487153] (-) TimerEvent: {}
+[17.587641] (-) TimerEvent: {}
+[17.688206] (-) TimerEvent: {}
+[17.788712] (-) TimerEvent: {}
+[17.889343] (-) TimerEvent: {}
+[17.989818] (-) TimerEvent: {}
+[18.090154] (-) TimerEvent: {}
+[18.190596] (-) TimerEvent: {}
+[18.291057] (-) TimerEvent: {}
+[18.391671] (-) TimerEvent: {}
+[18.492116] (-) TimerEvent: {}
+[18.592664] (-) TimerEvent: {}
+[18.693182] (-) TimerEvent: {}
+[18.793802] (-) TimerEvent: {}
+[18.894243] (-) TimerEvent: {}
+[18.994778] (-) TimerEvent: {}
+[19.095666] (-) TimerEvent: {}
+[19.196087] (-) TimerEvent: {}
+[19.296543] (-) TimerEvent: {}
+[19.396953] (-) TimerEvent: {}
+[19.497317] (-) TimerEvent: {}
+[19.597765] (-) TimerEvent: {}
+[19.698276] (-) TimerEvent: {}
+[19.798863] (-) TimerEvent: {}
+[19.899427] (-) TimerEvent: {}
+[19.999880] (-) TimerEvent: {}
+[20.100324] (-) TimerEvent: {}
+[20.200789] (-) TimerEvent: {}
+[20.301358] (-) TimerEvent: {}
+[20.402208] (-) TimerEvent: {}
+[20.502804] (-) TimerEvent: {}
+[20.603388] (-) TimerEvent: {}
+[20.703883] (-) TimerEvent: {}
+[20.804311] (-) TimerEvent: {}
+[20.904860] (-) TimerEvent: {}
+[21.005290] (-) TimerEvent: {}
+[21.105767] (-) TimerEvent: {}
+[21.206208] (-) TimerEvent: {}
+[21.306910] (-) TimerEvent: {}
+[21.407462] (-) TimerEvent: {}
+[21.507882] (-) TimerEvent: {}
+[21.608408] (-) TimerEvent: {}
+[21.708878] (-) TimerEvent: {}
+[21.809431] (-) TimerEvent: {}
+[21.912184] (-) TimerEvent: {}
+[22.012880] (-) TimerEvent: {}
+[22.113603] (-) TimerEvent: {}
+[22.214138] (-) TimerEvent: {}
+[22.314608] (-) TimerEvent: {}
+[22.415197] (-) TimerEvent: {}
+[22.515864] (-) TimerEvent: {}
+[22.616469] (-) TimerEvent: {}
+[22.717011] (-) TimerEvent: {}
+[22.817481] (-) TimerEvent: {}
+[22.918090] (-) TimerEvent: {}
+[23.018571] (-) TimerEvent: {}
+[23.118968] (-) TimerEvent: {}
+[23.219406] (-) TimerEvent: {}
+[23.319934] (-) TimerEvent: {}
+[23.420385] (-) TimerEvent: {}
+[23.520796] (-) TimerEvent: {}
+[23.621208] (-) TimerEvent: {}
+[23.721729] (-) TimerEvent: {}
+[23.822319] (-) TimerEvent: {}
+[23.922930] (-) TimerEvent: {}
+[24.023374] (-) TimerEvent: {}
+[24.123868] (-) TimerEvent: {}
+[24.224349] (-) TimerEvent: {}
+[24.270274] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate2\x1b[0m\n'}
+[24.324522] (-) TimerEvent: {}
+[24.381376] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/merge_all\x1b[0m\n'}
+[24.424634] (-) TimerEvent: {}
+[24.485279] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate\x1b[0m\n'}
+[24.524753] (-) TimerEvent: {}
+[24.625117] (-) TimerEvent: {}
+[24.727184] (-) TimerEvent: {}
+[24.827693] (-) TimerEvent: {}
+[24.928153] (-) TimerEvent: {}
+[25.028502] (-) TimerEvent: {}
+[25.097966] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target calibrate2\n'}
+[25.128612] (-) TimerEvent: {}
+[25.228180] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target merge_all\n'}
+[25.228684] (-) TimerEvent: {}
+[25.328970] (-) TimerEvent: {}
+[25.335834] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target calibrate\n'}
+[25.429108] (-) TimerEvent: {}
+[25.529624] (-) TimerEvent: {}
+[25.630084] (-) TimerEvent: {}
+[25.730422] (-) TimerEvent: {}
+[25.830714] (-) TimerEvent: {}
+[25.931122] (-) TimerEvent: {}
+[26.031575] (-) TimerEvent: {}
+[26.131996] (-) TimerEvent: {}
+[26.232766] (-) TimerEvent: {}
+[26.333167] (-) TimerEvent: {}
+[26.433599] (-) TimerEvent: {}
+[26.534010] (-) TimerEvent: {}
+[26.634447] (-) TimerEvent: {}
+[26.735044] (-) TimerEvent: {}
+[26.835561] (-) TimerEvent: {}
+[26.937308] (-) TimerEvent: {}
+[27.037828] (-) TimerEvent: {}
+[27.138245] (-) TimerEvent: {}
+[27.238670] (-) TimerEvent: {}
+[27.339141] (-) TimerEvent: {}
+[27.439484] (-) TimerEvent: {}
+[27.539968] (-) TimerEvent: {}
+[27.640543] (-) TimerEvent: {}
+[27.740936] (-) TimerEvent: {}
+[27.841435] (-) TimerEvent: {}
+[27.941883] (-) TimerEvent: {}
+[28.042300] (-) TimerEvent: {}
+[28.142883] (-) TimerEvent: {}
+[28.243453] (-) TimerEvent: {}
+[28.343959] (-) TimerEvent: {}
+[28.444437] (-) TimerEvent: {}
+[28.544900] (-) TimerEvent: {}
+[28.645318] (-) TimerEvent: {}
+[28.745722] (-) TimerEvent: {}
+[28.846126] (-) TimerEvent: {}
+[28.946534] (-) TimerEvent: {}
+[29.047079] (-) TimerEvent: {}
+[29.147521] (-) TimerEvent: {}
+[29.248002] (-) TimerEvent: {}
+[29.348549] (-) TimerEvent: {}
+[29.448930] (-) TimerEvent: {}
+[29.549423] (-) TimerEvent: {}
+[29.649980] (-) TimerEvent: {}
+[29.750432] (-) TimerEvent: {}
+[29.851090] (-) TimerEvent: {}
+[29.951506] (-) TimerEvent: {}
+[30.051970] (-) TimerEvent: {}
+[30.152442] (-) TimerEvent: {}
+[30.252812] (-) TimerEvent: {}
+[30.353144] (-) TimerEvent: {}
+[30.453493] (-) TimerEvent: {}
+[30.553917] (-) TimerEvent: {}
+[30.654372] (-) TimerEvent: {}
+[30.754686] (-) TimerEvent: {}
+[30.855278] (-) TimerEvent: {}
+[30.955803] (-) TimerEvent: {}
+[31.056248] (-) TimerEvent: {}
+[31.156694] (-) TimerEvent: {}
+[31.257944] (-) TimerEvent: {}
+[31.358511] (-) TimerEvent: {}
+[31.459187] (-) TimerEvent: {}
+[31.559789] (-) TimerEvent: {}
+[31.660318] (-) TimerEvent: {}
+[31.760869] (-) TimerEvent: {}
+[31.861397] (-) TimerEvent: {}
+[31.962004] (-) TimerEvent: {}
+[32.062483] (-) TimerEvent: {}
+[32.163021] (-) TimerEvent: {}
+[32.263463] (-) TimerEvent: {}
+[32.363908] (-) TimerEvent: {}
+[32.464364] (-) TimerEvent: {}
+[32.564782] (-) TimerEvent: {}
+[32.665223] (-) TimerEvent: {}
+[32.765643] (-) TimerEvent: {}
+[32.865988] (-) TimerEvent: {}
+[32.966555] (-) TimerEvent: {}
+[33.067029] (-) TimerEvent: {}
+[33.167511] (-) TimerEvent: {}
+[33.268143] (-) TimerEvent: {}
+[33.368649] (-) TimerEvent: {}
+[33.469306] (-) TimerEvent: {}
+[33.570058] (-) TimerEvent: {}
+[33.670642] (-) TimerEvent: {}
+[33.771200] (-) TimerEvent: {}
+[33.871650] (-) TimerEvent: {}
+[33.972196] (-) TimerEvent: {}
+[34.072680] (-) TimerEvent: {}
+[34.173192] (-) TimerEvent: {}
+[34.273651] (-) TimerEvent: {}
+[34.374255] (-) TimerEvent: {}
+[34.474682] (-) TimerEvent: {}
+[34.575169] (-) TimerEvent: {}
+[34.675679] (-) TimerEvent: {}
+[34.777069] (-) TimerEvent: {}
+[34.877606] (-) TimerEvent: {}
+[34.978047] (-) TimerEvent: {}
+[35.078429] (-) TimerEvent: {}
+[35.178875] (-) TimerEvent: {}
+[35.279222] (-) TimerEvent: {}
+[35.379639] (-) TimerEvent: {}
+[35.481510] (-) TimerEvent: {}
+[35.581983] (-) TimerEvent: {}
+[35.682492] (-) TimerEvent: {}
+[35.783040] (-) TimerEvent: {}
+[35.883421] (-) TimerEvent: {}
+[35.983840] (-) TimerEvent: {}
+[36.084322] (-) TimerEvent: {}
+[36.184752] (-) TimerEvent: {}
+[36.285318] (-) TimerEvent: {}
+[36.385876] (-) TimerEvent: {}
+[36.486271] (-) TimerEvent: {}
+[36.586597] (-) TimerEvent: {}
+[36.687202] (-) TimerEvent: {}
+[36.787746] (-) TimerEvent: {}
+[36.890496] (-) TimerEvent: {}
+[36.991180] (-) TimerEvent: {}
+[37.091746] (-) TimerEvent: {}
+[37.192396] (-) TimerEvent: {}
+[37.292923] (-) TimerEvent: {}
+[37.393419] (-) TimerEvent: {}
+[37.493979] (-) TimerEvent: {}
+[37.594548] (-) TimerEvent: {}
+[37.695204] (-) TimerEvent: {}
+[37.795704] (-) TimerEvent: {}
+[37.896255] (-) TimerEvent: {}
+[37.996850] (-) TimerEvent: {}
+[38.097326] (-) TimerEvent: {}
+[38.197941] (-) TimerEvent: {}
+[38.298485] (-) TimerEvent: {}
+[38.399126] (-) TimerEvent: {}
+[38.499565] (-) TimerEvent: {}
+[38.599951] (-) TimerEvent: {}
+[38.700479] (-) TimerEvent: {}
+[38.800917] (-) TimerEvent: {}
+[38.901475] (-) TimerEvent: {}
+[39.002173] (-) TimerEvent: {}
+[39.102681] (-) TimerEvent: {}
+[39.203435] (-) TimerEvent: {}
+[39.303954] (-) TimerEvent: {}
+[39.404458] (-) TimerEvent: {}
+[39.504967] (-) TimerEvent: {}
+[39.605515] (-) TimerEvent: {}
+[39.706097] (-) TimerEvent: {}
+[39.806668] (-) TimerEvent: {}
+[39.907241] (-) TimerEvent: {}
+[40.007597] (-) TimerEvent: {}
+[40.107983] (-) TimerEvent: {}
+[40.208396] (-) TimerEvent: {}
+[40.309008] (-) TimerEvent: {}
+[40.409551] (-) TimerEvent: {}
+[40.509991] (-) TimerEvent: {}
+[40.610424] (-) TimerEvent: {}
+[40.711026] (-) TimerEvent: {}
+[40.811469] (-) TimerEvent: {}
+[40.911878] (-) TimerEvent: {}
+[41.012296] (-) TimerEvent: {}
+[41.112783] (-) TimerEvent: {}
+[41.213546] (-) TimerEvent: {}
+[41.314040] (-) TimerEvent: {}
+[41.414503] (-) TimerEvent: {}
+[41.515081] (-) TimerEvent: {}
+[41.615628] (-) TimerEvent: {}
+[41.716210] (-) TimerEvent: {}
+[41.816862] (-) TimerEvent: {}
+[41.917382] (-) TimerEvent: {}
+[42.018136] (-) TimerEvent: {}
+[42.119025] (-) TimerEvent: {}
+[42.219548] (-) TimerEvent: {}
+[42.320070] (-) TimerEvent: {}
+[42.420517] (-) TimerEvent: {}
+[42.521095] (-) TimerEvent: {}
+[42.621900] (-) TimerEvent: {}
+[42.722759] (-) TimerEvent: {}
+[42.823226] (-) TimerEvent: {}
+[42.923698] (-) TimerEvent: {}
+[43.024089] (-) TimerEvent: {}
+[43.124548] (-) TimerEvent: {}
+[43.224996] (-) TimerEvent: {}
+[43.325518] (-) TimerEvent: {}
+[43.425988] (-) TimerEvent: {}
+[43.526460] (-) TimerEvent: {}
+[43.626929] (-) TimerEvent: {}
+[43.727333] (-) TimerEvent: {}
+[43.748516] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so\x1b[0m\n'}
+[43.827467] (-) TimerEvent: {}
+[43.927956] (-) TimerEvent: {}
+[44.028546] (-) TimerEvent: {}
+[44.128935] (-) TimerEvent: {}
+[44.229514] (-) TimerEvent: {}
+[44.330107] (-) TimerEvent: {}
+[44.430719] (-) TimerEvent: {}
+[44.531283] (-) TimerEvent: {}
+[44.631896] (-) TimerEvent: {}
+[44.732524] (-) TimerEvent: {}
+[44.833121] (-) TimerEvent: {}
+[44.933542] (-) TimerEvent: {}
+[45.034338] (-) TimerEvent: {}
+[45.134852] (-) TimerEvent: {}
+[45.235388] (-) TimerEvent: {}
+[45.336043] (-) TimerEvent: {}
+[45.436611] (-) TimerEvent: {}
+[45.537135] (-) TimerEvent: {}
+[45.637603] (-) TimerEvent: {}
+[45.738107] (-) TimerEvent: {}
+[45.838587] (-) TimerEvent: {}
+[45.939214] (-) TimerEvent: {}
+[46.039698] (-) TimerEvent: {}
+[46.140341] (-) TimerEvent: {}
+[46.240986] (-) TimerEvent: {}
+[46.341630] (-) TimerEvent: {}
+[46.442102] (-) TimerEvent: {}
+[46.542555] (-) TimerEvent: {}
+[46.643187] (-) TimerEvent: {}
+[46.743840] (-) TimerEvent: {}
+[46.844497] (-) TimerEvent: {}
+[46.944986] (-) TimerEvent: {}
+[47.045305] (-) TimerEvent: {}
+[47.145689] (-) TimerEvent: {}
+[47.246089] (-) TimerEvent: {}
+[47.346480] (-) TimerEvent: {}
+[47.447055] (-) TimerEvent: {}
+[47.493722] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] Built target multi_lidar_calibrator_lib\n'}
+[47.514032] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multi_lidar_calibrator\x1b[0m\n'}
+[47.547150] (-) TimerEvent: {}
+[47.593332] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/multi_lidar_calibrator.dir/src/multi_lidar_calibrator_node.cpp.o\x1b[0m\n'}
+[47.647264] (-) TimerEvent: {}
+[47.747579] (-) TimerEvent: {}
+[47.848081] (-) TimerEvent: {}
+[47.948516] (-) TimerEvent: {}
+[48.048945] (-) TimerEvent: {}
+[48.149730] (-) TimerEvent: {}
+[48.250161] (-) TimerEvent: {}
+[48.350848] (-) TimerEvent: {}
+[48.451297] (-) TimerEvent: {}
+[48.551726] (-) TimerEvent: {}
+[48.652185] (-) TimerEvent: {}
+[48.752618] (-) TimerEvent: {}
+[48.853039] (-) TimerEvent: {}
+[48.953498] (-) TimerEvent: {}
+[49.054150] (-) TimerEvent: {}
+[49.154574] (-) TimerEvent: {}
+[49.255083] (-) TimerEvent: {}
+[49.355444] (-) TimerEvent: {}
+[49.455831] (-) TimerEvent: {}
+[49.556461] (-) TimerEvent: {}
+[49.657013] (-) TimerEvent: {}
+[49.757718] (-) TimerEvent: {}
+[49.858237] (-) TimerEvent: {}
+[49.958842] (-) TimerEvent: {}
+[50.059298] (-) TimerEvent: {}
+[50.159739] (-) TimerEvent: {}
+[50.260086] (-) TimerEvent: {}
+[50.362101] (-) TimerEvent: {}
+[50.462459] (-) TimerEvent: {}
+[50.562829] (-) TimerEvent: {}
+[50.663179] (-) TimerEvent: {}
+[50.763572] (-) TimerEvent: {}
+[50.863897] (-) TimerEvent: {}
+[50.964259] (-) TimerEvent: {}
+[51.064601] (-) TimerEvent: {}
+[51.164941] (-) TimerEvent: {}
+[51.265347] (-) TimerEvent: {}
+[51.365666] (-) TimerEvent: {}
+[51.466039] (-) TimerEvent: {}
+[51.566351] (-) TimerEvent: {}
+[51.666680] (-) TimerEvent: {}
+[51.767239] (-) TimerEvent: {}
+[51.867610] (-) TimerEvent: {}
+[51.968024] (-) TimerEvent: {}
+[52.068450] (-) TimerEvent: {}
+[52.168835] (-) TimerEvent: {}
+[52.269214] (-) TimerEvent: {}
+[52.369622] (-) TimerEvent: {}
+[52.469999] (-) TimerEvent: {}
+[52.570376] (-) TimerEvent: {}
+[52.670903] (-) TimerEvent: {}
+[52.771291] (-) TimerEvent: {}
+[52.871689] (-) TimerEvent: {}
+[52.972082] (-) TimerEvent: {}
+[53.072575] (-) TimerEvent: {}
+[53.173032] (-) TimerEvent: {}
+[53.273565] (-) TimerEvent: {}
+[53.374093] (-) TimerEvent: {}
+[53.474585] (-) TimerEvent: {}
+[53.575092] (-) TimerEvent: {}
+[53.675515] (-) TimerEvent: {}
+[53.775835] (-) TimerEvent: {}
+[53.876265] (-) TimerEvent: {}
+[53.976707] (-) TimerEvent: {}
+[54.077233] (-) TimerEvent: {}
+[54.177726] (-) TimerEvent: {}
+[54.278114] (-) TimerEvent: {}
+[54.378539] (-) TimerEvent: {}
+[54.479157] (-) TimerEvent: {}
+[54.579591] (-) TimerEvent: {}
+[54.680036] (-) TimerEvent: {}
+[54.780552] (-) TimerEvent: {}
+[54.881044] (-) TimerEvent: {}
+[54.981710] (-) TimerEvent: {}
+[55.082145] (-) TimerEvent: {}
+[55.182577] (-) TimerEvent: {}
+[55.283099] (-) TimerEvent: {}
+[55.383651] (-) TimerEvent: {}
+[55.484286] (-) TimerEvent: {}
+[55.585015] (-) TimerEvent: {}
+[55.685506] (-) TimerEvent: {}
+[55.785940] (-) TimerEvent: {}
+[55.886433] (-) TimerEvent: {}
+[55.987004] (-) TimerEvent: {}
+[56.087537] (-) TimerEvent: {}
+[56.188231] (-) TimerEvent: {}
+[56.288787] (-) TimerEvent: {}
+[56.389233] (-) TimerEvent: {}
+[56.489707] (-) TimerEvent: {}
+[56.590149] (-) TimerEvent: {}
+[56.690862] (-) TimerEvent: {}
+[56.791483] (-) TimerEvent: {}
+[56.892192] (-) TimerEvent: {}
+[56.992945] (-) TimerEvent: {}
+[57.093834] (-) TimerEvent: {}
+[57.194265] (-) TimerEvent: {}
+[57.294766] (-) TimerEvent: {}
+[57.395419] (-) TimerEvent: {}
+[57.495849] (-) TimerEvent: {}
+[57.596323] (-) TimerEvent: {}
+[57.696871] (-) TimerEvent: {}
+[57.797827] (-) TimerEvent: {}
+[57.898505] (-) TimerEvent: {}
+[57.998895] (-) TimerEvent: {}
+[58.099262] (-) TimerEvent: {}
+[58.199633] (-) TimerEvent: {}
+[58.300001] (-) TimerEvent: {}
+[58.400495] (-) TimerEvent: {}
+[58.501005] (-) TimerEvent: {}
+[58.601375] (-) TimerEvent: {}
+[58.701863] (-) TimerEvent: {}
+[58.802311] (-) TimerEvent: {}
+[58.902844] (-) TimerEvent: {}
+[59.003408] (-) TimerEvent: {}
+[59.103963] (-) TimerEvent: {}
+[59.204335] (-) TimerEvent: {}
+[59.304708] (-) TimerEvent: {}
+[59.405083] (-) TimerEvent: {}
+[59.505459] (-) TimerEvent: {}
+[59.605906] (-) TimerEvent: {}
+[59.706361] (-) TimerEvent: {}
+[59.806710] (-) TimerEvent: {}
+[59.907112] (-) TimerEvent: {}
+[60.007539] (-) TimerEvent: {}
+[60.108136] (-) TimerEvent: {}
+[60.208757] (-) TimerEvent: {}
+[60.309153] (-) TimerEvent: {}
+[60.409492] (-) TimerEvent: {}
+[60.509948] (-) TimerEvent: {}
+[60.610329] (-) TimerEvent: {}
+[60.710675] (-) TimerEvent: {}
+[60.811156] (-) TimerEvent: {}
+[60.911527] (-) TimerEvent: {}
+[61.012036] (-) TimerEvent: {}
+[61.112522] (-) TimerEvent: {}
+[61.212957] (-) TimerEvent: {}
+[61.313344] (-) TimerEvent: {}
+[61.413694] (-) TimerEvent: {}
+[61.514138] (-) TimerEvent: {}
+[61.614497] (-) TimerEvent: {}
+[61.715072] (-) TimerEvent: {}
+[61.816458] (-) TimerEvent: {}
+[61.916866] (-) TimerEvent: {}
+[62.017175] (-) TimerEvent: {}
+[62.117474] (-) TimerEvent: {}
+[62.217784] (-) TimerEvent: {}
+[62.318101] (-) TimerEvent: {}
+[62.418437] (-) TimerEvent: {}
+[62.518763] (-) TimerEvent: {}
+[62.619166] (-) TimerEvent: {}
+[62.719508] (-) TimerEvent: {}
+[62.819803] (-) TimerEvent: {}
+[62.920192] (-) TimerEvent: {}
+[63.020636] (-) TimerEvent: {}
+[63.121151] (-) TimerEvent: {}
+[63.221676] (-) TimerEvent: {}
+[63.322230] (-) TimerEvent: {}
+[63.422799] (-) TimerEvent: {}
+[63.523192] (-) TimerEvent: {}
+[63.623706] (-) TimerEvent: {}
+[63.724276] (-) TimerEvent: {}
+[63.824735] (-) TimerEvent: {}
+[63.925276] (-) TimerEvent: {}
+[64.025704] (-) TimerEvent: {}
+[64.126127] (-) TimerEvent: {}
+[64.226647] (-) TimerEvent: {}
+[64.236637] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator\x1b[0m\n'}
+[64.326833] (-) TimerEvent: {}
+[64.427219] (-) TimerEvent: {}
+[64.527733] (-) TimerEvent: {}
+[64.629725] (-) TimerEvent: {}
+[64.730618] (-) TimerEvent: {}
+[64.831164] (-) TimerEvent: {}
+[64.931663] (-) TimerEvent: {}
+[65.032129] (-) TimerEvent: {}
+[65.132576] (-) TimerEvent: {}
+[65.229548] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] Built target multi_lidar_calibrator\n'}
+[65.232742] (-) TimerEvent: {}
+[65.250534] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[65.333023] (-) TimerEvent: {}
+[65.388887] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': "build target 'tests'"}
+[65.389480] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', '--target', 'tests', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/appcode.vmoptions'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/gateway.vmoptions'), ('USER', 'ykxn'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webstorm.vmoptions'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('WEBIDE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webide.vmoptions'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DATASPELL_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/dataspell.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('DATAGRIP_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/datagrip.vmoptions'), ('IDEA_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/idea.vmoptions'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2885'), ('CLION_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/clion.vmoptions'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('STUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/studio.vmoptions'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '3'), ('PHPSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/phpstorm.vmoptions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('RIDER_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rider.vmoptions'), ('PAPERSIZE', 'a4'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/devecostudio.vmoptions'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/1703,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GOLAND_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/goland.vmoptions'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dbabc1c805.sock'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/pycharm.vmoptions'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rubymine.vmoptions'), ('PWD', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrains_client.vmoptions'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[65.433181] (-) TimerEvent: {}
+[65.488331] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[65.502785] (multi_lidar_calibrator) StdoutLine: {'line': b'Built target tests\n'}
+[65.523186] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[65.533411] (-) TimerEvent: {}
+[65.634003] (-) TimerEvent: {}
+[65.660707] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'install'}
+[65.673006] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/Desktop/test/build/multi_lidar_calibrator', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/appcode.vmoptions'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/gateway.vmoptions'), ('USER', 'ykxn'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webstorm.vmoptions'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('WEBIDE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/webide.vmoptions'), ('SSH_AGENT_PID', '1781'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DATASPELL_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/dataspell.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('DATAGRIP_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/datagrip.vmoptions'), ('IDEA_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/idea.vmoptions'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2885'), ('CLION_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/clion.vmoptions'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('STUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/studio.vmoptions'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '3'), ('PHPSTORM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/phpstorm.vmoptions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('RIDER_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rider.vmoptions'), ('PAPERSIZE', 'a4'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/devecostudio.vmoptions'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/1703,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GOLAND_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/goland.vmoptions'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dbabc1c805.sock'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/pycharm.vmoptions'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/rubymine.vmoptions'), ('PWD', '/home/ykxn/Desktop/test/build/multi_lidar_calibrator'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/ykxn/Music/jetbra/vmoptions/jetbrains_client.vmoptions'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[65.734216] (-) TimerEvent: {}
+[65.794909] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 25%] Built target calibrate\n'}
+[65.795184] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 33%] Built target xuanzhuan_y\n'}
+[65.796118] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] Built target merge_all\n'}
+[65.799865] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 66%] Built target multi_lidar_calibrator_lib\n'}
+[65.802694] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] Built target calibrate2\n'}
+[65.834363] (-) TimerEvent: {}
+[65.863521] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] Built target multi_lidar_calibrator\n'}
+[65.890401] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[65.899234] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[65.899598] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc\n'}
+[65.899816] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake\n'}
+[65.899982] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake\n'}
+[65.900127] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml\n'}
+[65.900262] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate\n'}
+[65.911833] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate" to ""\n'}
+[65.912231] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2\n'}
+[65.923857] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2" to ""\n'}
+[65.924222] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all\n'}
+[65.934529] (-) TimerEvent: {}
+[65.935930] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all" to ""\n'}
+[65.936235] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y\n'}
+[65.940667] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y" to ""\n'}
+[65.940987] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator\n'}
+[65.951896] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""\n'}
+[65.952397] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so\n'}
+[65.984956] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""\n'}
+[65.985537] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch\n'}
+[65.985724] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/merge_points.launch\n'}
+[65.985894] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch\n'}
+[65.986056] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/calibrate.launch\n'}
+[65.990009] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[66.034911] (-) TimerEvent: {}
+[66.136090] (-) TimerEvent: {}
+[66.179284] (multi_lidar_calibrator) JobEnded: {'identifier': 'multi_lidar_calibrator', 'rc': 0}
+[66.181548] (-) EventReactorShutdown: {}

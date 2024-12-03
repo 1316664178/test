@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel/setup.sh
+=======
+    local-name: /home/ykxn/Desktop/test/build/multi_lidar_calibrator/devel/setup.sh
+>>>>>>> master

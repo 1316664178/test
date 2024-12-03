@@ -13,8 +13,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/ordered_paths.cmake"
   "catkin_generated/package.cmake"
+<<<<<<< HEAD
   "/home/ykxn/ws_calibrator/src/multi_lidar_calibator/CMakeLists.txt"
   "/home/ykxn/ws_calibrator/src/multi_lidar_calibator/package.xml"
+=======
+  "/home/ykxn/Desktop/test/multi_lidar_calibrator/CMakeLists.txt"
+  "/home/ykxn/Desktop/test/multi_lidar_calibrator/package.xml"
+>>>>>>> master
   "/opt/ros/melodic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/melodic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/melodic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -203,11 +208,20 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
+<<<<<<< HEAD
+=======
+  "/usr/share/cmake-3.10/Modules/CMakeConfigurableFile.in"
+>>>>>>> master
   "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeParseArguments.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
+<<<<<<< HEAD
+=======
+  "/usr/share/cmake-3.10/Modules/CheckFunctionExists.c"
+  "/usr/share/cmake-3.10/Modules/CheckIncludeFile.c.in"
+>>>>>>> master
   "/usr/share/cmake-3.10/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.10/Modules/CheckSymbolExists.cmake"

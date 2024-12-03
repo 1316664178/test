@@ -1,2 +1,6 @@
 # Hashes of file build rules.
+<<<<<<< HEAD
 a221d7fe49f56aeadad3131b436d277e CMakeFiles/clean_test_results
+=======
+543769bf450c68ad4b4455930efb50d3 CMakeFiles/clean_test_results
+>>>>>>> master

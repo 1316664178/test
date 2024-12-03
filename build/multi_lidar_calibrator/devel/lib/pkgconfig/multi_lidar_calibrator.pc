@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel
+=======
+prefix=/home/ykxn/Desktop/test/build/multi_lidar_calibrator/devel
+>>>>>>> master
 
 Name: multi_lidar_calibrator
 Description: Description of multi_lidar_calibrator

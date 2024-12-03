@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target multi_lidar_calibrator_lib[0m
+[ 16%] Built target xuanzhuan_y
+[ 33%] Built target calibrate
+[ 50%] Built target merge_all
+[ 66%] Built target calibrate2
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so[0m
+[ 83%] Built target multi_lidar_calibrator_lib
+[ 91%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator[0m
+[100%] Built target multi_lidar_calibrator
+Built target tests
+[ 16%] Built target calibrate2
+[ 33%] Built target xuanzhuan_y
+[ 50%] Built target calibrate
+[ 66%] Built target merge_all
+[ 83%] Built target multi_lidar_calibrator_lib
+[100%] Built target multi_lidar_calibrator
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y
+-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator
+-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""
+-- Installing: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so
+-- Set runtime path of "/home/ykxn/Desktop/test/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/merge_points.launch
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch
+-- Up-to-date: /home/ykxn/Desktop/test/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/calibrate.launch

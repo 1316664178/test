@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/ykxn/ws_calibrator/src/multi_lidar_calibator
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ykxn/ws_calibrator/build/multi_lidar_calibrator
+=======
+CMAKE_SOURCE_DIR = /home/ykxn/Desktop/test/multi_lidar_calibrator
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/ykxn/Desktop/test/build/multi_lidar_calibrator
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/gtest/CMakeFiles/progress.marks
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles 0
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles /home/ykxn/Desktop/test/build/multi_lidar_calibrator/gtest/CMakeFiles/progress.marks
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +171,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Help Target
@@ -191,6 +220,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/ykxn/ws_calibrator/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/ykxn/Desktop/test/build/multi_lidar_calibrator && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

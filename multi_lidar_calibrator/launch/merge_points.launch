@@ -1,0 +1,5 @@
+<launch>
+   <node pkg="multi_lidar_calibrator" type="merge" name="merge" output="screen" />
+
+
+</launch>

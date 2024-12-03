@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/ykxn/ws_calibrator/src/multi_lidar_calibator
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ykxn/ws_calibrator/build/multi_lidar_calibrator
+=======
+CMAKE_SOURCE_DIR = /home/ykxn/Desktop/test/multi_lidar_calibrator
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/ykxn/Desktop/test/build/multi_lidar_calibrator
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +144,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ykxn/Desktop/test/build/multi_lidar_calibrator/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target

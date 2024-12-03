@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ['-DCMAKE_BUILD_TYPE=Release', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0']
+=======
+['-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0']
+>>>>>>> master

@@ -1,0 +1,6 @@
+Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator -- -j16 -l16
+Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target tests -- -j16 -l16
+Invoking command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16
+Invoked command in '/home/ykxn/Desktop/test/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/Desktop/test/build/multi_lidar_calibrator --target install -- -j16 -l16

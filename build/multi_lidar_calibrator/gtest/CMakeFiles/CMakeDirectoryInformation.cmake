@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ykxn/Desktop/test/build/multi_lidar_calibrator")
+>>>>>>> master
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
