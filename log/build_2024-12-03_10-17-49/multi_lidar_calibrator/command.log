@@ -1,0 +1,8 @@
+Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake /home/ykxn/ws_calibrator/src/multi_lidar_calibator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake /home/ykxn/ws_calibrator/src/multi_lidar_calibator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator -- -j16 -l16
+Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator -- -j16 -l16
+Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target tests -- -j16 -l16
+Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target tests -- -j16 -l16
+Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target install -- -j16 -l16
+Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target install -- -j16 -l16

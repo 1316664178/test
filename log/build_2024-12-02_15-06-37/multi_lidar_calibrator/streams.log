@@ -1,0 +1,83 @@
+[0.034s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+[0.056s] -- Using CATKIN_DEVEL_PREFIX: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel
+[0.056s] -- Using CMAKE_PREFIX_PATH: /home/ykxn/ws_calibrator/devel;/opt/ros/melodic
+[0.056s] -- This workspace overlays: /opt/ros/melodic
+[0.076s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.077s] -- Using Debian Python package layout
+[0.077s] -- Using empy: /usr/bin/empy
+[0.211s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.212s] -- Call enable_testing()
+[0.213s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/test_results
+[0.237s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.238s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.256s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.268s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.308s] -- catkin 0.7.29
+[0.308s] -- BUILD_SHARED_LIBS is on
+[0.958s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.410s] -- Found OpenCV: /usr (found version "3.2.0") 
+[1.414s] -- Configuring done
+[1.520s] -- Generating done
+[1.528s] -- Build files have been written to: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator
+[1.533s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+[1.535s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator -- -j16 -l16
+[1.600s] [35m[1mScanning dependencies of target multi_lidar_calibrator_lib[0m
+[1.602s] [35m[1mScanning dependencies of target calibrate[0m
+[1.602s] [35m[1mScanning dependencies of target xuanzhuan_y[0m
+[1.603s] [35m[1mScanning dependencies of target calibrate2[0m
+[1.603s] [35m[1mScanning dependencies of target merge_all[0m
+[1.670s] [  8%] [32mBuilding CXX object CMakeFiles/merge_all.dir/src/merge_all.cpp.o[0m
+[1.671s] [ 16%] [32mBuilding CXX object CMakeFiles/calibrate.dir/src/calibrate.cpp.o[0m
+[1.673s] [ 25%] [32mBuilding CXX object CMakeFiles/calibrate2.dir/src/calibrate2.cpp.o[0m
+[1.675s] [ 33%] [32mBuilding CXX object CMakeFiles/xuanzhuan_y.dir/src/xuanzhuan_y.cpp.o[0m
+[1.676s] [ 41%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o[0m
+[10.758s] [ 50%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/xuanzhuan_y[0m
+[11.282s] [ 50%] Built target xuanzhuan_y
+[17.236s] [ 58%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/merge_all[0m
+[17.428s] [ 66%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate2[0m
+[17.434s] [ 75%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate[0m
+[17.915s] [ 75%] Built target merge_all
+[18.052s] [ 75%] Built target calibrate2
+[18.064s] [ 75%] Built target calibrate
+[30.770s] [ 83%] [32m[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so[0m
+[33.892s] [ 83%] Built target multi_lidar_calibrator_lib
+[33.911s] [35m[1mScanning dependencies of target multi_lidar_calibrator[0m
+[33.982s] [ 91%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator.dir/src/multi_lidar_calibrator_node.cpp.o[0m
+[46.554s] [100%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator[0m
+[47.348s] [100%] Built target multi_lidar_calibrator
+[47.369s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator -- -j16 -l16
+[47.523s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[47.616s] [35m[1mScanning dependencies of target tests[0m
+[47.635s] Built target tests
+[47.654s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target tests -- -j16 -l16
+[47.815s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target install -- -j16 -l16
+[47.895s] [ 16%] Built target merge_all
+[47.897s] [ 33%] Built target calibrate2
+[47.898s] [ 50%] Built target calibrate
+[47.899s] [ 66%] Built target xuanzhuan_y
+[47.902s] [ 83%] Built target multi_lidar_calibrator_lib
+[47.966s] [100%] Built target multi_lidar_calibrator
+[48.002s] [36mInstall the project...[0m
+[48.017s] -- Install configuration: "Release"
+[48.018s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc
+[48.018s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake
+[48.018s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake
+[48.019s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml
+[48.019s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate
+[48.031s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate" to ""
+[48.032s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2
+[48.040s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2" to ""
+[48.041s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all
+[48.049s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all" to ""
+[48.049s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y
+[48.053s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y" to ""
+[48.053s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator
+[48.060s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""
+[48.061s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so
+[48.080s] -- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""
+[48.080s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+[48.080s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/merge_points.launch
+[48.080s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch
+[48.081s] -- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/calibrate.launch
+[48.085s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '0': /usr/bin/cmake --build /home/ykxn/ws_calibrator/build/multi_lidar_calibrator --target install -- -j16 -l16

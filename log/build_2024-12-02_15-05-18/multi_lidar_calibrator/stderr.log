@@ -1,0 +1,18 @@
+CMake Error: File /home/ykxn/ws_calibrator/src/package.xml does not exist.
+CMake Error at /opt/ros/melodic/share/catkin/cmake/stamp.cmake:10 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:72 (stamp)
+  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:50 (_catkin_package_xml)
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+  CMakeLists.txt:14 (catkin_package)
+
+
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:116 (message):
+  catkin_package() 'catkin' must be listed as a buildtool dependency in the
+  package.xml
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:14 (catkin_package)
+
+

@@ -1,0 +1,49 @@
+[0.018s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+[0.040s] -- Using CATKIN_DEVEL_PREFIX: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel
+[0.040s] -- Using CMAKE_PREFIX_PATH: /home/ykxn/ws_calibrator/devel;/opt/ros/melodic
+[0.040s] -- This workspace overlays: /opt/ros/melodic
+[0.058s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.059s] -- Using Debian Python package layout
+[0.059s] -- Using empy: /usr/bin/empy
+[0.217s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.218s] -- Call enable_testing()
+[0.221s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/test_results
+[0.242s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.243s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.263s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.264s] -- Looking for pthread.h
+[0.360s] -- Looking for pthread.h - found
+[0.361s] -- Looking for pthread_create
+[0.465s] -- Looking for pthread_create - not found
+[0.465s] -- Looking for pthread_create in pthreads
+[0.553s] -- Looking for pthread_create in pthreads - not found
+[0.553s] -- Looking for pthread_create in pthread
+[0.663s] -- Looking for pthread_create in pthread - found
+[0.665s] -- Found Threads: TRUE  
+[0.674s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.720s] -- catkin 0.7.29
+[0.721s] -- BUILD_SHARED_LIBS is on
+[1.381s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.680s] CMake Error: File /home/ykxn/ws_calibrator/src/package.xml does not exist.
+[1.680s] CMake Error at /opt/ros/melodic/share/catkin/cmake/stamp.cmake:10 (configure_file):
+[1.680s]   configure_file Problem configuring file
+[1.681s] Call Stack (most recent call first):
+[1.681s]   /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:72 (stamp)
+[1.681s]   /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:50 (_catkin_package_xml)
+[1.681s]   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+[1.682s]   CMakeLists.txt:14 (catkin_package)
+[1.682s] 
+[1.682s] 
+[1.682s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:116 (message):
+[1.682s]   catkin_package() 'catkin' must be listed as a buildtool dependency in the
+[1.682s]   package.xml
+[1.682s] Call Stack (most recent call first):
+[1.683s]   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+[1.683s]   CMakeLists.txt:14 (catkin_package)
+[1.683s] 
+[1.683s] 
+[1.683s] -- Configuring incomplete, errors occurred!
+[1.683s] See also "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeOutput.log".
+[1.683s] See also "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeError.log".
+[1.686s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '1': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator

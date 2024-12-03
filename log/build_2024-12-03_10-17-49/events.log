@@ -1,0 +1,645 @@
+[0.000000] (-) TimerEvent: {}
+[0.000448] (multi_lidar_calibrator) JobQueued: {'identifier': 'multi_lidar_calibrator', 'dependencies': OrderedDict()}
+[0.000525] (multi_lidar_calibrator) JobStarted: {'identifier': 'multi_lidar_calibrator'}
+[0.012357] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'cmake'}
+[0.013142] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '/home/ykxn/ws_calibrator/src/multi_lidar_calibator', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator'], 'cwd': '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib:/home/ykxn/ws_calibrator/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ykxn'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/ykxn/ws_calibrator/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/187bfbe2_c94a_489f_9b78_fbffc22b93fb'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator:/home/ykxn/ws_calibrator/devel:/opt/ros/melodic')]), 'shell': False}
+[0.098108] (-) TimerEvent: {}
+[0.113635] (multi_lidar_calibrator) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.192186] (multi_lidar_calibrator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.198218] (-) TimerEvent: {}
+[0.199436] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298357] (-) TimerEvent: {}
+[0.305668] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.307036] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398529] (-) TimerEvent: {}
+[0.419205] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.438140] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.498673] (-) TimerEvent: {}
+[0.599123] (-) TimerEvent: {}
+[0.699578] (-) TimerEvent: {}
+[0.769595] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.775388] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.799712] (-) TimerEvent: {}
+[0.883051] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.884914] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.899875] (-) TimerEvent: {}
+[1.000373] (-) TimerEvent: {}
+[1.005864] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.024007] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.100737] (-) TimerEvent: {}
+[1.201325] (-) TimerEvent: {}
+[1.301960] (-) TimerEvent: {}
+[1.402384] (-) TimerEvent: {}
+[1.502759] (-) TimerEvent: {}
+[1.514959] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.519765] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel\n'}
+[1.520341] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator;/home/ykxn/ws_calibrator/devel;/opt/ros/melodic\n'}
+[1.520687] (multi_lidar_calibrator) StdoutLine: {'line': b'-- This workspace overlays: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator;/opt/ros/melodic\n'}
+[1.541535] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[1.542267] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[1.542728] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[1.542918] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[1.602904] (-) TimerEvent: {}
+[1.699230] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[1.699578] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[1.703175] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/test_results\n'}
+[1.703552] (-) TimerEvent: {}
+[1.728946] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[1.729278] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[1.750176] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[1.751703] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.804071] (-) TimerEvent: {}
+[1.858718] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.859782] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.904191] (-) TimerEvent: {}
+[1.963184] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.964181] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.004328] (-) TimerEvent: {}
+[2.057565] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.058269] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.104484] (-) TimerEvent: {}
+[2.164719] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.165514] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.172181] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[2.204637] (-) TimerEvent: {}
+[2.218344] (multi_lidar_calibrator) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[2.218676] (multi_lidar_calibrator) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[2.304798] (-) TimerEvent: {}
+[2.405242] (-) TimerEvent: {}
+[2.505716] (-) TimerEvent: {}
+[2.606278] (-) TimerEvent: {}
+[2.706649] (-) TimerEvent: {}
+[2.807093] (-) TimerEvent: {}
+[2.848092] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[2.907241] (-) TimerEvent: {}
+[3.007700] (-) TimerEvent: {}
+[3.108138] (-) TimerEvent: {}
+[3.208634] (-) TimerEvent: {}
+[3.303074] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[3.307555] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.308740] (-) TimerEvent: {}
+[3.409170] (-) TimerEvent: {}
+[3.421453] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Generating done\n'}
+[3.429524] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Build files have been written to: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator\n'}
+[3.435938] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[3.437424] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'build'}
+[3.438341] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib:/home/ykxn/ws_calibrator/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ykxn'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/ykxn/ws_calibrator/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/187bfbe2_c94a_489f_9b78_fbffc22b93fb'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator:/home/ykxn/ws_calibrator/devel:/opt/ros/melodic')]), 'shell': False}
+[3.501383] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target merge_all\x1b[0m\n'}
+[3.501997] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multi_lidar_calibrator_lib\x1b[0m\n'}
+[3.503238] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target xuanzhuan_y\x1b[0m\n'}
+[3.503803] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibrate\x1b[0m\n'}
+[3.505359] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibrate2\x1b[0m\n'}
+[3.509312] (-) TimerEvent: {}
+[3.560834] (multi_lidar_calibrator) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/merge_all.dir/src/merge_all.cpp.o\x1b[0m\n'}
+[3.561277] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/xuanzhuan_y.dir/src/xuanzhuan_y.cpp.o\x1b[0m\n'}
+[3.572755] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/calibrate2.dir/src/calibrate2.cpp.o\x1b[0m\n'}
+[3.576067] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o\x1b[0m\n'}
+[3.581391] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/calibrate.dir/src/calibrate.cpp.o\x1b[0m\n'}
+[3.609442] (-) TimerEvent: {}
+[3.709908] (-) TimerEvent: {}
+[3.810322] (-) TimerEvent: {}
+[3.910705] (-) TimerEvent: {}
+[4.011234] (-) TimerEvent: {}
+[4.111684] (-) TimerEvent: {}
+[4.212209] (-) TimerEvent: {}
+[4.312765] (-) TimerEvent: {}
+[4.413198] (-) TimerEvent: {}
+[4.513629] (-) TimerEvent: {}
+[4.614328] (-) TimerEvent: {}
+[4.715233] (-) TimerEvent: {}
+[4.815691] (-) TimerEvent: {}
+[4.916124] (-) TimerEvent: {}
+[5.016527] (-) TimerEvent: {}
+[5.116937] (-) TimerEvent: {}
+[5.217319] (-) TimerEvent: {}
+[5.317739] (-) TimerEvent: {}
+[5.418213] (-) TimerEvent: {}
+[5.518582] (-) TimerEvent: {}
+[5.618988] (-) TimerEvent: {}
+[5.719379] (-) TimerEvent: {}
+[5.819778] (-) TimerEvent: {}
+[5.920100] (-) TimerEvent: {}
+[6.020601] (-) TimerEvent: {}
+[6.121121] (-) TimerEvent: {}
+[6.221548] (-) TimerEvent: {}
+[6.322070] (-) TimerEvent: {}
+[6.422515] (-) TimerEvent: {}
+[6.523014] (-) TimerEvent: {}
+[6.623380] (-) TimerEvent: {}
+[6.723887] (-) TimerEvent: {}
+[6.824489] (-) TimerEvent: {}
+[6.924903] (-) TimerEvent: {}
+[7.025303] (-) TimerEvent: {}
+[7.125699] (-) TimerEvent: {}
+[7.226206] (-) TimerEvent: {}
+[7.326730] (-) TimerEvent: {}
+[7.427141] (-) TimerEvent: {}
+[7.527596] (-) TimerEvent: {}
+[7.628177] (-) TimerEvent: {}
+[7.728664] (-) TimerEvent: {}
+[7.829095] (-) TimerEvent: {}
+[7.929487] (-) TimerEvent: {}
+[8.029918] (-) TimerEvent: {}
+[8.130356] (-) TimerEvent: {}
+[8.230856] (-) TimerEvent: {}
+[8.331299] (-) TimerEvent: {}
+[8.431704] (-) TimerEvent: {}
+[8.532121] (-) TimerEvent: {}
+[8.632546] (-) TimerEvent: {}
+[8.733081] (-) TimerEvent: {}
+[8.833519] (-) TimerEvent: {}
+[8.933968] (-) TimerEvent: {}
+[9.034438] (-) TimerEvent: {}
+[9.134891] (-) TimerEvent: {}
+[9.235468] (-) TimerEvent: {}
+[9.335879] (-) TimerEvent: {}
+[9.436264] (-) TimerEvent: {}
+[9.536599] (-) TimerEvent: {}
+[9.637127] (-) TimerEvent: {}
+[9.737683] (-) TimerEvent: {}
+[9.838145] (-) TimerEvent: {}
+[9.938600] (-) TimerEvent: {}
+[10.039141] (-) TimerEvent: {}
+[10.139726] (-) TimerEvent: {}
+[10.240187] (-) TimerEvent: {}
+[10.340663] (-) TimerEvent: {}
+[10.441209] (-) TimerEvent: {}
+[10.541924] (-) TimerEvent: {}
+[10.642285] (-) TimerEvent: {}
+[10.742661] (-) TimerEvent: {}
+[10.843040] (-) TimerEvent: {}
+[10.943409] (-) TimerEvent: {}
+[11.043788] (-) TimerEvent: {}
+[11.144258] (-) TimerEvent: {}
+[11.244685] (-) TimerEvent: {}
+[11.345158] (-) TimerEvent: {}
+[11.445562] (-) TimerEvent: {}
+[11.546103] (-) TimerEvent: {}
+[11.646510] (-) TimerEvent: {}
+[11.747010] (-) TimerEvent: {}
+[11.847432] (-) TimerEvent: {}
+[11.947842] (-) TimerEvent: {}
+[12.048221] (-) TimerEvent: {}
+[12.148562] (-) TimerEvent: {}
+[12.249002] (-) TimerEvent: {}
+[12.349489] (-) TimerEvent: {}
+[12.449975] (-) TimerEvent: {}
+[12.550421] (-) TimerEvent: {}
+[12.650812] (-) TimerEvent: {}
+[12.751196] (-) TimerEvent: {}
+[12.843867] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/xuanzhuan_y\x1b[0m\n'}
+[12.851320] (-) TimerEvent: {}
+[12.951914] (-) TimerEvent: {}
+[13.052317] (-) TimerEvent: {}
+[13.152874] (-) TimerEvent: {}
+[13.253386] (-) TimerEvent: {}
+[13.355625] (-) TimerEvent: {}
+[13.442325] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] Built target xuanzhuan_y\n'}
+[13.455770] (-) TimerEvent: {}
+[13.556291] (-) TimerEvent: {}
+[13.656678] (-) TimerEvent: {}
+[13.757112] (-) TimerEvent: {}
+[13.857475] (-) TimerEvent: {}
+[13.957963] (-) TimerEvent: {}
+[14.058322] (-) TimerEvent: {}
+[14.158808] (-) TimerEvent: {}
+[14.259170] (-) TimerEvent: {}
+[14.359581] (-) TimerEvent: {}
+[14.459937] (-) TimerEvent: {}
+[14.560311] (-) TimerEvent: {}
+[14.660775] (-) TimerEvent: {}
+[14.761240] (-) TimerEvent: {}
+[14.861682] (-) TimerEvent: {}
+[14.962201] (-) TimerEvent: {}
+[15.062552] (-) TimerEvent: {}
+[15.162979] (-) TimerEvent: {}
+[15.263387] (-) TimerEvent: {}
+[15.363781] (-) TimerEvent: {}
+[15.464196] (-) TimerEvent: {}
+[15.564682] (-) TimerEvent: {}
+[15.665110] (-) TimerEvent: {}
+[15.765498] (-) TimerEvent: {}
+[15.865890] (-) TimerEvent: {}
+[15.966278] (-) TimerEvent: {}
+[16.066630] (-) TimerEvent: {}
+[16.167359] (-) TimerEvent: {}
+[16.267803] (-) TimerEvent: {}
+[16.368272] (-) TimerEvent: {}
+[16.468717] (-) TimerEvent: {}
+[16.569130] (-) TimerEvent: {}
+[16.669524] (-) TimerEvent: {}
+[16.769965] (-) TimerEvent: {}
+[16.870337] (-) TimerEvent: {}
+[16.970711] (-) TimerEvent: {}
+[17.071092] (-) TimerEvent: {}
+[17.171577] (-) TimerEvent: {}
+[17.271956] (-) TimerEvent: {}
+[17.372363] (-) TimerEvent: {}
+[17.472762] (-) TimerEvent: {}
+[17.573227] (-) TimerEvent: {}
+[17.673644] (-) TimerEvent: {}
+[17.774080] (-) TimerEvent: {}
+[17.874421] (-) TimerEvent: {}
+[17.974805] (-) TimerEvent: {}
+[18.075245] (-) TimerEvent: {}
+[18.176405] (-) TimerEvent: {}
+[18.276803] (-) TimerEvent: {}
+[18.377283] (-) TimerEvent: {}
+[18.477689] (-) TimerEvent: {}
+[18.578096] (-) TimerEvent: {}
+[18.678458] (-) TimerEvent: {}
+[18.778836] (-) TimerEvent: {}
+[18.879198] (-) TimerEvent: {}
+[18.979696] (-) TimerEvent: {}
+[19.080251] (-) TimerEvent: {}
+[19.180718] (-) TimerEvent: {}
+[19.281272] (-) TimerEvent: {}
+[19.381723] (-) TimerEvent: {}
+[19.482194] (-) TimerEvent: {}
+[19.582614] (-) TimerEvent: {}
+[19.683005] (-) TimerEvent: {}
+[19.783472] (-) TimerEvent: {}
+[19.883852] (-) TimerEvent: {}
+[19.984198] (-) TimerEvent: {}
+[20.084593] (-) TimerEvent: {}
+[20.185192] (-) TimerEvent: {}
+[20.285538] (-) TimerEvent: {}
+[20.386023] (-) TimerEvent: {}
+[20.389408] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/merge_all\x1b[0m\n'}
+[20.486162] (-) TimerEvent: {}
+[20.533914] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate2\x1b[0m\n'}
+[20.586308] (-) TimerEvent: {}
+[20.652230] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/calibrate\x1b[0m\n'}
+[20.686439] (-) TimerEvent: {}
+[20.787075] (-) TimerEvent: {}
+[20.887493] (-) TimerEvent: {}
+[20.987980] (-) TimerEvent: {}
+[21.076800] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target merge_all\n'}
+[21.088121] (-) TimerEvent: {}
+[21.188485] (-) TimerEvent: {}
+[21.243576] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target calibrate2\n'}
+[21.268343] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 75%] Built target calibrate\n'}
+[21.288627] (-) TimerEvent: {}
+[21.389043] (-) TimerEvent: {}
+[21.489430] (-) TimerEvent: {}
+[21.589915] (-) TimerEvent: {}
+[21.690259] (-) TimerEvent: {}
+[21.790680] (-) TimerEvent: {}
+[21.891043] (-) TimerEvent: {}
+[21.991439] (-) TimerEvent: {}
+[22.091806] (-) TimerEvent: {}
+[22.192177] (-) TimerEvent: {}
+[22.292545] (-) TimerEvent: {}
+[22.393128] (-) TimerEvent: {}
+[22.493472] (-) TimerEvent: {}
+[22.593830] (-) TimerEvent: {}
+[22.694281] (-) TimerEvent: {}
+[22.794639] (-) TimerEvent: {}
+[22.894999] (-) TimerEvent: {}
+[22.995404] (-) TimerEvent: {}
+[23.095756] (-) TimerEvent: {}
+[23.196124] (-) TimerEvent: {}
+[23.296527] (-) TimerEvent: {}
+[23.396942] (-) TimerEvent: {}
+[23.497381] (-) TimerEvent: {}
+[23.597783] (-) TimerEvent: {}
+[23.698209] (-) TimerEvent: {}
+[23.798604] (-) TimerEvent: {}
+[23.899017] (-) TimerEvent: {}
+[23.999352] (-) TimerEvent: {}
+[24.099764] (-) TimerEvent: {}
+[24.200209] (-) TimerEvent: {}
+[24.300611] (-) TimerEvent: {}
+[24.401001] (-) TimerEvent: {}
+[24.501431] (-) TimerEvent: {}
+[24.601859] (-) TimerEvent: {}
+[24.702438] (-) TimerEvent: {}
+[24.802899] (-) TimerEvent: {}
+[24.903370] (-) TimerEvent: {}
+[25.003727] (-) TimerEvent: {}
+[25.104096] (-) TimerEvent: {}
+[25.204508] (-) TimerEvent: {}
+[25.305255] (-) TimerEvent: {}
+[25.406036] (-) TimerEvent: {}
+[25.506510] (-) TimerEvent: {}
+[25.606961] (-) TimerEvent: {}
+[25.707386] (-) TimerEvent: {}
+[25.808134] (-) TimerEvent: {}
+[25.908558] (-) TimerEvent: {}
+[26.008982] (-) TimerEvent: {}
+[26.109395] (-) TimerEvent: {}
+[26.209893] (-) TimerEvent: {}
+[26.310346] (-) TimerEvent: {}
+[26.410982] (-) TimerEvent: {}
+[26.511490] (-) TimerEvent: {}
+[26.611958] (-) TimerEvent: {}
+[26.712452] (-) TimerEvent: {}
+[26.813479] (-) TimerEvent: {}
+[26.914158] (-) TimerEvent: {}
+[27.014654] (-) TimerEvent: {}
+[27.115260] (-) TimerEvent: {}
+[27.215774] (-) TimerEvent: {}
+[27.316278] (-) TimerEvent: {}
+[27.416706] (-) TimerEvent: {}
+[27.517161] (-) TimerEvent: {}
+[27.617634] (-) TimerEvent: {}
+[27.718144] (-) TimerEvent: {}
+[27.818572] (-) TimerEvent: {}
+[27.919040] (-) TimerEvent: {}
+[28.019486] (-) TimerEvent: {}
+[28.119944] (-) TimerEvent: {}
+[28.220366] (-) TimerEvent: {}
+[28.320802] (-) TimerEvent: {}
+[28.421277] (-) TimerEvent: {}
+[28.521773] (-) TimerEvent: {}
+[28.622497] (-) TimerEvent: {}
+[28.723099] (-) TimerEvent: {}
+[28.823685] (-) TimerEvent: {}
+[28.924118] (-) TimerEvent: {}
+[29.024561] (-) TimerEvent: {}
+[29.125045] (-) TimerEvent: {}
+[29.225517] (-) TimerEvent: {}
+[29.325978] (-) TimerEvent: {}
+[29.426414] (-) TimerEvent: {}
+[29.526779] (-) TimerEvent: {}
+[29.627215] (-) TimerEvent: {}
+[29.727722] (-) TimerEvent: {}
+[29.828165] (-) TimerEvent: {}
+[29.928523] (-) TimerEvent: {}
+[30.028889] (-) TimerEvent: {}
+[30.129281] (-) TimerEvent: {}
+[30.229727] (-) TimerEvent: {}
+[30.330286] (-) TimerEvent: {}
+[30.430732] (-) TimerEvent: {}
+[30.531180] (-) TimerEvent: {}
+[30.631615] (-) TimerEvent: {}
+[30.732094] (-) TimerEvent: {}
+[30.832509] (-) TimerEvent: {}
+[30.932977] (-) TimerEvent: {}
+[31.033529] (-) TimerEvent: {}
+[31.133986] (-) TimerEvent: {}
+[31.234422] (-) TimerEvent: {}
+[31.334892] (-) TimerEvent: {}
+[31.435326] (-) TimerEvent: {}
+[31.535714] (-) TimerEvent: {}
+[31.636154] (-) TimerEvent: {}
+[31.736793] (-) TimerEvent: {}
+[31.837267] (-) TimerEvent: {}
+[31.937695] (-) TimerEvent: {}
+[32.038243] (-) TimerEvent: {}
+[32.138659] (-) TimerEvent: {}
+[32.239053] (-) TimerEvent: {}
+[32.339427] (-) TimerEvent: {}
+[32.439919] (-) TimerEvent: {}
+[32.540547] (-) TimerEvent: {}
+[32.641073] (-) TimerEvent: {}
+[32.741571] (-) TimerEvent: {}
+[32.842101] (-) TimerEvent: {}
+[32.942583] (-) TimerEvent: {}
+[33.042985] (-) TimerEvent: {}
+[33.143556] (-) TimerEvent: {}
+[33.243854] (-) TimerEvent: {}
+[33.344354] (-) TimerEvent: {}
+[33.444811] (-) TimerEvent: {}
+[33.545227] (-) TimerEvent: {}
+[33.645566] (-) TimerEvent: {}
+[33.746144] (-) TimerEvent: {}
+[33.846659] (-) TimerEvent: {}
+[33.947111] (-) TimerEvent: {}
+[34.047569] (-) TimerEvent: {}
+[34.147992] (-) TimerEvent: {}
+[34.248448] (-) TimerEvent: {}
+[34.348905] (-) TimerEvent: {}
+[34.449292] (-) TimerEvent: {}
+[34.549690] (-) TimerEvent: {}
+[34.650228] (-) TimerEvent: {}
+[34.750709] (-) TimerEvent: {}
+[34.851213] (-) TimerEvent: {}
+[34.951826] (-) TimerEvent: {}
+[35.052376] (-) TimerEvent: {}
+[35.152846] (-) TimerEvent: {}
+[35.188816] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so\x1b[0m\n'}
+[35.252981] (-) TimerEvent: {}
+[35.353428] (-) TimerEvent: {}
+[35.453934] (-) TimerEvent: {}
+[35.554398] (-) TimerEvent: {}
+[35.654889] (-) TimerEvent: {}
+[35.755409] (-) TimerEvent: {}
+[35.856143] (-) TimerEvent: {}
+[35.956699] (-) TimerEvent: {}
+[36.057139] (-) TimerEvent: {}
+[36.157507] (-) TimerEvent: {}
+[36.257879] (-) TimerEvent: {}
+[36.358373] (-) TimerEvent: {}
+[36.458831] (-) TimerEvent: {}
+[36.559335] (-) TimerEvent: {}
+[36.659846] (-) TimerEvent: {}
+[36.760457] (-) TimerEvent: {}
+[36.860960] (-) TimerEvent: {}
+[36.961439] (-) TimerEvent: {}
+[37.062103] (-) TimerEvent: {}
+[37.162590] (-) TimerEvent: {}
+[37.263138] (-) TimerEvent: {}
+[37.363751] (-) TimerEvent: {}
+[37.464259] (-) TimerEvent: {}
+[37.564794] (-) TimerEvent: {}
+[37.665306] (-) TimerEvent: {}
+[37.765866] (-) TimerEvent: {}
+[37.866355] (-) TimerEvent: {}
+[37.966804] (-) TimerEvent: {}
+[38.067352] (-) TimerEvent: {}
+[38.167844] (-) TimerEvent: {}
+[38.268327] (-) TimerEvent: {}
+[38.368791] (-) TimerEvent: {}
+[38.417682] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] Built target multi_lidar_calibrator_lib\n'}
+[38.438827] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multi_lidar_calibrator\x1b[0m\n'}
+[38.468965] (-) TimerEvent: {}
+[38.517002] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/multi_lidar_calibrator.dir/src/multi_lidar_calibrator_node.cpp.o\x1b[0m\n'}
+[38.569156] (-) TimerEvent: {}
+[38.669640] (-) TimerEvent: {}
+[38.770148] (-) TimerEvent: {}
+[38.870596] (-) TimerEvent: {}
+[38.971041] (-) TimerEvent: {}
+[39.071514] (-) TimerEvent: {}
+[39.171947] (-) TimerEvent: {}
+[39.272429] (-) TimerEvent: {}
+[39.372907] (-) TimerEvent: {}
+[39.473350] (-) TimerEvent: {}
+[39.573885] (-) TimerEvent: {}
+[39.674336] (-) TimerEvent: {}
+[39.774786] (-) TimerEvent: {}
+[39.875277] (-) TimerEvent: {}
+[39.975825] (-) TimerEvent: {}
+[40.076379] (-) TimerEvent: {}
+[40.176813] (-) TimerEvent: {}
+[40.277193] (-) TimerEvent: {}
+[40.377555] (-) TimerEvent: {}
+[40.477929] (-) TimerEvent: {}
+[40.578265] (-) TimerEvent: {}
+[40.678613] (-) TimerEvent: {}
+[40.778965] (-) TimerEvent: {}
+[40.879590] (-) TimerEvent: {}
+[40.979941] (-) TimerEvent: {}
+[41.080317] (-) TimerEvent: {}
+[41.180691] (-) TimerEvent: {}
+[41.281024] (-) TimerEvent: {}
+[41.381368] (-) TimerEvent: {}
+[41.481738] (-) TimerEvent: {}
+[41.582292] (-) TimerEvent: {}
+[41.682622] (-) TimerEvent: {}
+[41.783016] (-) TimerEvent: {}
+[41.883339] (-) TimerEvent: {}
+[41.983653] (-) TimerEvent: {}
+[42.083999] (-) TimerEvent: {}
+[42.184445] (-) TimerEvent: {}
+[42.284857] (-) TimerEvent: {}
+[42.385342] (-) TimerEvent: {}
+[42.485888] (-) TimerEvent: {}
+[42.586258] (-) TimerEvent: {}
+[42.686598] (-) TimerEvent: {}
+[42.786973] (-) TimerEvent: {}
+[42.887442] (-) TimerEvent: {}
+[42.987870] (-) TimerEvent: {}
+[43.088341] (-) TimerEvent: {}
+[43.188813] (-) TimerEvent: {}
+[43.289148] (-) TimerEvent: {}
+[43.390163] (-) TimerEvent: {}
+[43.490513] (-) TimerEvent: {}
+[43.590922] (-) TimerEvent: {}
+[43.691297] (-) TimerEvent: {}
+[43.791650] (-) TimerEvent: {}
+[43.891993] (-) TimerEvent: {}
+[43.992419] (-) TimerEvent: {}
+[44.092763] (-) TimerEvent: {}
+[44.193146] (-) TimerEvent: {}
+[44.293506] (-) TimerEvent: {}
+[44.393927] (-) TimerEvent: {}
+[44.494449] (-) TimerEvent: {}
+[44.594875] (-) TimerEvent: {}
+[44.695346] (-) TimerEvent: {}
+[44.795683] (-) TimerEvent: {}
+[44.896044] (-) TimerEvent: {}
+[44.996424] (-) TimerEvent: {}
+[45.096959] (-) TimerEvent: {}
+[45.197692] (-) TimerEvent: {}
+[45.298170] (-) TimerEvent: {}
+[45.398648] (-) TimerEvent: {}
+[45.499053] (-) TimerEvent: {}
+[45.599418] (-) TimerEvent: {}
+[45.700490] (-) TimerEvent: {}
+[45.801646] (-) TimerEvent: {}
+[45.902435] (-) TimerEvent: {}
+[46.002868] (-) TimerEvent: {}
+[46.103286] (-) TimerEvent: {}
+[46.203668] (-) TimerEvent: {}
+[46.304090] (-) TimerEvent: {}
+[46.404634] (-) TimerEvent: {}
+[46.505088] (-) TimerEvent: {}
+[46.605678] (-) TimerEvent: {}
+[46.706216] (-) TimerEvent: {}
+[46.806648] (-) TimerEvent: {}
+[46.907082] (-) TimerEvent: {}
+[47.007517] (-) TimerEvent: {}
+[47.107959] (-) TimerEvent: {}
+[47.208340] (-) TimerEvent: {}
+[47.308805] (-) TimerEvent: {}
+[47.409307] (-) TimerEvent: {}
+[47.509928] (-) TimerEvent: {}
+[47.610384] (-) TimerEvent: {}
+[47.710813] (-) TimerEvent: {}
+[47.811252] (-) TimerEvent: {}
+[47.911731] (-) TimerEvent: {}
+[48.012199] (-) TimerEvent: {}
+[48.112607] (-) TimerEvent: {}
+[48.213186] (-) TimerEvent: {}
+[48.313671] (-) TimerEvent: {}
+[48.414325] (-) TimerEvent: {}
+[48.514803] (-) TimerEvent: {}
+[48.615299] (-) TimerEvent: {}
+[48.715732] (-) TimerEvent: {}
+[48.816186] (-) TimerEvent: {}
+[48.916675] (-) TimerEvent: {}
+[49.017153] (-) TimerEvent: {}
+[49.117623] (-) TimerEvent: {}
+[49.218123] (-) TimerEvent: {}
+[49.318549] (-) TimerEvent: {}
+[49.419008] (-) TimerEvent: {}
+[49.519314] (-) TimerEvent: {}
+[49.619765] (-) TimerEvent: {}
+[49.720389] (-) TimerEvent: {}
+[49.820797] (-) TimerEvent: {}
+[49.921221] (-) TimerEvent: {}
+[50.021655] (-) TimerEvent: {}
+[50.122303] (-) TimerEvent: {}
+[50.222836] (-) TimerEvent: {}
+[50.323273] (-) TimerEvent: {}
+[50.424441] (-) TimerEvent: {}
+[50.525341] (-) TimerEvent: {}
+[50.625815] (-) TimerEvent: {}
+[50.726430] (-) TimerEvent: {}
+[50.826890] (-) TimerEvent: {}
+[50.927302] (-) TimerEvent: {}
+[51.027765] (-) TimerEvent: {}
+[51.128324] (-) TimerEvent: {}
+[51.228841] (-) TimerEvent: {}
+[51.329289] (-) TimerEvent: {}
+[51.429863] (-) TimerEvent: {}
+[51.530320] (-) TimerEvent: {}
+[51.617615] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator\x1b[0m\n'}
+[51.630449] (-) TimerEvent: {}
+[51.730812] (-) TimerEvent: {}
+[51.831489] (-) TimerEvent: {}
+[51.931979] (-) TimerEvent: {}
+[52.032417] (-) TimerEvent: {}
+[52.133024] (-) TimerEvent: {}
+[52.233567] (-) TimerEvent: {}
+[52.334085] (-) TimerEvent: {}
+[52.376099] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] Built target multi_lidar_calibrator\n'}
+[52.390493] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[52.434241] (-) TimerEvent: {}
+[52.516652] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': "build target 'tests'"}
+[52.519511] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', '--target', 'tests', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib:/home/ykxn/ws_calibrator/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ykxn'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/ykxn/ws_calibrator/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/187bfbe2_c94a_489f_9b78_fbffc22b93fb'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator:/home/ykxn/ws_calibrator/devel:/opt/ros/melodic')]), 'shell': False}
+[52.534416] (-) TimerEvent: {}
+[52.606983] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[52.626559] (multi_lidar_calibrator) StdoutLine: {'line': b'Built target tests\n'}
+[52.634540] (-) TimerEvent: {}
+[52.644910] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[52.734726] (-) TimerEvent: {}
+[52.780377] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'install'}
+[52.800823] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib:/home/ykxn/ws_calibrator/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ykxn'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/ykxn/ws_calibrator/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/187bfbe2_c94a_489f_9b78_fbffc22b93fb'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ykxn/ws_calibrator/install/multi_lidar_calibrator:/home/ykxn/ws_calibrator/devel:/opt/ros/melodic')]), 'shell': False}
+[52.834866] (-) TimerEvent: {}
+[52.893092] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 16%] Built target calibrate2\n'}
+[52.897468] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 33%] Built target merge_all\n'}
+[52.902425] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 50%] Built target xuanzhuan_y\n'}
+[52.905247] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 66%] Built target multi_lidar_calibrator_lib\n'}
+[52.907691] (multi_lidar_calibrator) StdoutLine: {'line': b'[ 83%] Built target calibrate\n'}
+[52.934992] (-) TimerEvent: {}
+[52.965545] (multi_lidar_calibrator) StdoutLine: {'line': b'[100%] Built target multi_lidar_calibrator\n'}
+[52.999231] (multi_lidar_calibrator) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[53.008562] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.009535] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc\n'}
+[53.010066] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake\n'}
+[53.010332] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake\n'}
+[53.010507] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Up-to-date: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml\n'}
+[53.010730] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate\n'}
+[53.022091] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate" to ""\n'}
+[53.022749] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2\n'}
+[53.032256] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/calibrate2" to ""\n'}
+[53.032604] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all\n'}
+[53.035150] (-) TimerEvent: {}
+[53.042477] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/merge_all" to ""\n'}
+[53.042881] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y\n'}
+[53.046249] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/xuanzhuan_y" to ""\n'}
+[53.046596] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator\n'}
+[53.053492] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""\n'}
+[53.053955] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Installing: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so\n'}
+[53.081954] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Set runtime path of "/home/ykxn/ws_calibrator/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""\n'}
+[53.082355] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Up-to-date: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch\n'}
+[53.082766] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Up-to-date: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/merge_points.launch\n'}
+[53.082934] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Up-to-date: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch\n'}
+[53.083045] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Up-to-date: /home/ykxn/ws_calibrator/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/calibrate.launch\n'}
+[53.087089] (multi_lidar_calibrator) CommandEnded: {'returncode': 0}
+[53.135358] (-) TimerEvent: {}
+[53.236252] (-) TimerEvent: {}
+[53.266933] (multi_lidar_calibrator) JobEnded: {'identifier': 'multi_lidar_calibrator', 'rc': 0}
+[53.269376] (-) EventReactorShutdown: {}

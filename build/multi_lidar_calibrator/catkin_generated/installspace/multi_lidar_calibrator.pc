@@ -1,0 +1,8 @@
+prefix=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+
+Name: multi_lidar_calibrator
+Description: Description of multi_lidar_calibrator
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

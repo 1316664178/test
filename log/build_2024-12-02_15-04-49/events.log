@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000647] (multi_lidar_calibrator) JobQueued: {'identifier': 'multi_lidar_calibrator', 'dependencies': OrderedDict()}
+[0.001284] (multi_lidar_calibrator) JobStarted: {'identifier': 'multi_lidar_calibrator'}
+[0.009241] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'cmake'}
+[0.010929] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '/home/ykxn/ws_calibrator/src', '-DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator'], 'cwd': '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ykxn/ws_calibrator/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ykxn/ws_calibrator/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ykxn'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/187bfbe2_c94a_489f_9b78_fbffc22b93fb'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ykxn/ws_calibrator/devel/share/common-lisp'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ykxn/ws_calibrator/devel:/opt/ros/melodic')]), 'shell': False}
+[0.040967] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/devel\n'}
+[0.041437] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/ykxn/ws_calibrator/devel;/opt/ros/melodic\n'}
+[0.041582] (multi_lidar_calibrator) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[0.060415] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[0.060883] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.061401] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.061535] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.099566] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.208962] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.209243] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.210719] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ykxn/ws_calibrator/build/multi_lidar_calibrator/test_results\n'}
+[0.232695] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.232945] (multi_lidar_calibrator) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.252939] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[0.264458] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[0.300235] (-) TimerEvent: {}
+[0.306492] (multi_lidar_calibrator) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[0.306782] (multi_lidar_calibrator) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.400390] (-) TimerEvent: {}
+[0.500862] (-) TimerEvent: {}
+[0.601202] (-) TimerEvent: {}
+[0.701529] (-) TimerEvent: {}
+[0.801882] (-) TimerEvent: {}
+[0.902246] (-) TimerEvent: {}
+[0.917497] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[1.002405] (-) TimerEvent: {}
+[1.102961] (-) TimerEvent: {}
+[1.203304] (-) TimerEvent: {}
+[1.239195] (multi_lidar_calibrator) StderrLine: {'line': b'CMake Error: File /home/ykxn/ws_calibrator/src/package.xml does not exist.\n'}
+[1.239403] (multi_lidar_calibrator) StderrLine: {'line': b'CMake Error at /opt/ros/melodic/share/catkin/cmake/stamp.cmake:10 (configure_file):\n'}
+[1.239467] (multi_lidar_calibrator) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[1.239525] (multi_lidar_calibrator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.239893] (multi_lidar_calibrator) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:72 (stamp)\n'}
+[1.239968] (multi_lidar_calibrator) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:50 (_catkin_package_xml)\n'}
+[1.240042] (multi_lidar_calibrator) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)\n'}
+[1.240168] (multi_lidar_calibrator) StderrLine: {'line': b'  CMakeLists.txt:14 (catkin_package)\n'}
+[1.240293] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.240419] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.240592] (multi_lidar_calibrator) StderrLine: {'line': b'CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:116 (message):\n'}
+[1.240720] (multi_lidar_calibrator) StderrLine: {'line': b"  catkin_package() 'catkin' must be listed as a buildtool dependency in the\n"}
+[1.240845] (multi_lidar_calibrator) StderrLine: {'line': b'  package.xml\n'}
+[1.240970] (multi_lidar_calibrator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.241113] (multi_lidar_calibrator) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)\n'}
+[1.241292] (multi_lidar_calibrator) StderrLine: {'line': b'  CMakeLists.txt:14 (catkin_package)\n'}
+[1.241421] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.241545] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.243009] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.243220] (multi_lidar_calibrator) StdoutLine: {'line': b'See also "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeOutput.log".\n'}
+[1.243372] (multi_lidar_calibrator) StdoutLine: {'line': b'See also "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeError.log".\n'}
+[1.250287] (multi_lidar_calibrator) CommandEnded: {'returncode': 1}
+[1.252344] (multi_lidar_calibrator) JobEnded: {'identifier': 'multi_lidar_calibrator', 'rc': 1}
+[1.263980] (-) EventReactorShutdown: {}

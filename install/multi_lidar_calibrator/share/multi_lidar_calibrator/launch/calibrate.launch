@@ -1,0 +1,6 @@
+<launch>
+<!--    <node pkg="multi_lidar_calibrator" type="calibrate" name="calibrate" output="screen" />-->
+<!--    <node pkg="multi_lidar_calibrator" type="calibrate2" name="calibrate2" output="screen" />-->
+    <node pkg="multi_lidar_calibrator" type="xuanzhuan" name="xuanzhuan" output="screen" />
+
+</launch>

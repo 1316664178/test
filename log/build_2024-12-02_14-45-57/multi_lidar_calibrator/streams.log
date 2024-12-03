@@ -1,0 +1,35 @@
+[0.020s] Invoking command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
+[0.122s] -- The C compiler identification is GNU 7.5.0
+[0.196s] -- The CXX compiler identification is GNU 7.5.0
+[0.203s] -- Check for working C compiler: /usr/bin/cc
+[0.305s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.306s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.432s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.856s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.989s] -- Detecting CXX compile features
+[1.484s] -- Detecting CXX compile features - done
+[1.495s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.496s]   By not providing "Findautoware_build_flags.cmake" in CMAKE_MODULE_PATH this
+[1.496s]   project has asked CMake to find a package configuration file provided by
+[1.496s]   "autoware_build_flags", but CMake did not find one.
+[1.497s] 
+[1.497s]   Could not find a package configuration file provided by
+[1.497s]   "autoware_build_flags" with any of the following names:
+[1.497s] 
+[1.498s]     autoware_build_flagsConfig.cmake
+[1.499s]     autoware_build_flags-config.cmake
+[1.499s] 
+[1.500s]   Add the installation prefix of "autoware_build_flags" to CMAKE_PREFIX_PATH
+[1.500s]   or set "autoware_build_flags_DIR" to a directory containing one of the
+[1.500s]   above files.  If "autoware_build_flags" provides a separate development
+[1.500s]   package or SDK, be sure it has been installed.
+[1.500s] 
+[1.500s] 
+[1.500s] -- Configuring incomplete, errors occurred!
+[1.501s] See also "/home/ykxn/ws_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeOutput.log".
+[1.501s] Invoked command in '/home/ykxn/ws_calibrator/build/multi_lidar_calibrator' returned '1': /usr/bin/cmake /home/ykxn/ws_calibrator/src -DCMAKE_INSTALL_PREFIX=/home/ykxn/ws_calibrator/install/multi_lidar_calibrator
