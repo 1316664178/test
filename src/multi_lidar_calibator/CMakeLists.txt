@@ -68,6 +68,7 @@ target_link_libraries(merge_all
         ${PCL_INCLUDE_DIRS}
         )
 #//旋转
+#tiaoyue
 add_executable(xuanzhuan_y
         src/xuanzhuan_y.cpp
         )
